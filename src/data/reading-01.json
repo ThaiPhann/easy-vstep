@@ -1,0 +1,1040 @@
+{
+  "id": "reading-01",
+  "skill": "reading",
+  "title": "Đề Reading 01 – Cuộc sống & học tập",
+  "durationMinutes": 60,
+  "parts": [
+    {
+      "id": "r1-p1",
+      "partNumber": 1,
+      "title": "Bài 1 – Thư viện nhỏ và những chuyến xe đạp",
+      "text": "On a wet Tuesday morning, Linh pushes a heavy blue bicycle out of a narrow garage behind the town library. The two boxes strapped to the back hold thirty books, every one of them reserved by a reader the week before. Linh is not a librarian. She is a retired maths teacher who saw an advertisement on the library noticeboard two years ago, and she is now one of eleven volunteers who keep the town's Book Bicycle service running.\n\nThe service exists because the library was quietly losing its readers. When the building's opening hours were cut to save money, borrowing fell by almost a third within a year. The librarian in charge, Mrs Hoa, looked at the addresses of the people who had stopped coming and found a pattern: most of them lived in the new housing estates on the edge of town, where the bus to the centre ran only twice a day. Asking the council for a second library building was not realistic. Instead, the team spent a small grant on two second-hand cargo bicycles and a set of waterproof boxes.\n\nThe system is simple. Readers order books online or by telephone, and volunteers collect them on Thursday evening. Routes are planned on a paper map pinned to the garage wall, and deliveries happen on Friday and Saturday. There are no fines for late returns, because, as Mrs Hoa puts it, we would rather have a book back late than a reader too embarrassed to come back at all. Volunteers also carry a notebook in which readers can request titles the library does not own; those requests are passed to the central service.\n\nTwo years on, the numbers are modest but steady. Around sixty households use the bicycle regularly, and membership in the eastern estates has more than doubled. The most requested items are not novels but practical guides: gardening, cooking, and books on caring for elderly relatives. The service has one obvious weakness. Readers cannot browse, so they rarely discover a book they did not already want, and several volunteers admit that this makes the deliveries feel more like a shop than a library. Still, for a town that could not afford a new building, thirty books arriving in the rain is a good beginning.",
+      "questions": [
+        {
+          "id": "r1-p1-q1",
+          "number": 1,
+          "question": "What is the main idea of the passage?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A town should replace its bus service with bicycles."
+            },
+            {
+              "id": "B",
+              "text": "A small library reaches readers who can no longer visit it by using volunteers and bicycles."
+            },
+            {
+              "id": "C",
+              "text": "Retired teachers make better librarians than trained staff."
+            },
+            {
+              "id": "D",
+              "text": "The council refused to give the library any money at all."
+            }
+          ],
+          "answer": "B",
+          "explanation": "Toàn bài kể về dịch vụ Book Bicycle: thư viện nhỏ dùng xe đạp và tình nguyện viên để mang sách đến những người khó đến thư viện. Các phương án khác chỉ là chi tiết sai hoặc không được nêu trong bài."
+        },
+        {
+          "id": "r1-p1-q2",
+          "number": 2,
+          "question": "According to the passage, what happened after the library's opening hours were reduced?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The library received a larger grant from the council."
+            },
+            {
+              "id": "B",
+              "text": "Volunteers stopped using the bus to the centre."
+            },
+            {
+              "id": "C",
+              "text": "Borrowing fell by almost a third within a year."
+            },
+            {
+              "id": "D",
+              "text": "A second library building was opened."
+            }
+          ],
+          "answer": "C",
+          "explanation": "Đoạn 2 nêu rõ: khi giờ mở cửa bị cắt để tiết kiệm tiền, lượng mượn sách giảm gần một phần ba trong vòng một năm. Việc xây thêm thư viện bị coi là không thực tế."
+        },
+        {
+          "id": "r1-p1-q3",
+          "number": 3,
+          "question": "The phrase quietly losing its readers in paragraph 2 most nearly means",
+          "options": [
+            {
+              "id": "A",
+              "text": "gradually attracting fewer and fewer people"
+            },
+            {
+              "id": "B",
+              "text": "losing books from its shelves without telling anyone"
+            },
+            {
+              "id": "C",
+              "text": "making readers angry by asking them to be silent"
+            },
+            {
+              "id": "D",
+              "text": "closing down suddenly without any warning"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Cụm này nói về việc thư viện dần mất người đọc, và câu sau đó chứng minh bằng số liệu lượng mượn sách giảm mạnh. Không liên quan đến mất sách hay đóng cửa đột ngột."
+        },
+        {
+          "id": "r1-p1-q4",
+          "number": 4,
+          "question": "In paragraph 3, what does those requests refer to?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Requests for later return dates"
+            },
+            {
+              "id": "B",
+              "text": "Requests for new bicycle routes"
+            },
+            {
+              "id": "C",
+              "text": "Requests made by the council"
+            },
+            {
+              "id": "D",
+              "text": "Requests for titles the library does not own"
+            }
+          ],
+          "answer": "D",
+          "explanation": "Câu trước nói tình nguyện viên mang theo một cuốn sổ để người đọc yêu cầu những đầu sách thư viện không có. Những yêu cầu đó được chuyển lên dịch vụ trung tâm."
+        },
+        {
+          "id": "r1-p1-q5",
+          "number": 5,
+          "question": "What can be inferred about Mrs Hoa's attitude towards late returns?",
+          "options": [
+            {
+              "id": "A",
+              "text": "She believes fines are the only way to make readers return books."
+            },
+            {
+              "id": "B",
+              "text": "She values keeping readers more than punishing them."
+            },
+            {
+              "id": "C",
+              "text": "She thinks volunteers should collect books more often."
+            },
+            {
+              "id": "D",
+              "text": "She wants to stop lending to the eastern estates."
+            }
+          ],
+          "answer": "B",
+          "explanation": "Bà Hoa nói thà nhận sách trả muộn còn hơn để người đọc xấu hổ mà không quay lại, cho thấy bà coi trọng việc giữ người đọc hơn là phạt họ."
+        },
+        {
+          "id": "r1-p1-q6",
+          "number": 6,
+          "question": "Why does the author mention gardening and cooking guides?",
+          "options": [
+            {
+              "id": "A",
+              "text": "To show that novels are unpopular in the town."
+            },
+            {
+              "id": "B",
+              "text": "To suggest the library should buy more novels."
+            },
+            {
+              "id": "C",
+              "text": "To illustrate the practical needs of the service's readers."
+            },
+            {
+              "id": "D",
+              "text": "To prove that volunteers choose the books themselves."
+            }
+          ],
+          "answer": "C",
+          "explanation": "Đoạn cuối cho biết sách được yêu cầu nhiều nhất không phải tiểu thuyết mà là sách hướng dẫn thực tế như làm vườn, nấu ăn, chăm sóc người già — nhằm minh họa nhu cầu thực tế của người đọc."
+        },
+        {
+          "id": "r1-p1-q7",
+          "number": 7,
+          "question": "Which weakness of the service is mentioned in the passage?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Readers cannot browse, so they rarely discover unexpected books."
+            },
+            {
+              "id": "B",
+              "text": "Volunteers refuse to deliver books in the rain."
+            },
+            {
+              "id": "C",
+              "text": "The service charges higher fines than the library did."
+            },
+            {
+              "id": "D",
+              "text": "Only people with internet access can use it."
+            }
+          ],
+          "answer": "A",
+          "explanation": "Đoạn 4 nêu điểm yếu rõ ràng: người đọc không thể xem qua sách nên hiếm khi tìm được cuốn sách họ chưa nghĩ đến. Bài cũng nói không có phí trả muộn và có thể đặt sách qua điện thoại."
+        },
+        {
+          "id": "r1-p1-q8",
+          "number": 8,
+          "question": "What does the writer suggest by saying the deliveries feel more like a shop than a library?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The volunteers sell books at a profit."
+            },
+            {
+              "id": "B",
+              "text": "The service is more expensive than a bookshop."
+            },
+            {
+              "id": "C",
+              "text": "The library building has been turned into a shop."
+            },
+            {
+              "id": "D",
+              "text": "The element of chance and discovery is missing."
+            }
+          ],
+          "answer": "D",
+          "explanation": "Vì người đọc chỉ nhận đúng sách mình đã đặt trước, họ không có cơ hội tình cờ khám phá sách mới như khi đi thư viện — đó là điều khiến dịch vụ giống cửa hàng hơn."
+        },
+        {
+          "id": "r1-p1-q9",
+          "number": 9,
+          "question": "The word modest in the final paragraph is closest in meaning to",
+          "options": [
+            {
+              "id": "A",
+              "text": "disappointing"
+            },
+            {
+              "id": "B",
+              "text": "limited but acceptable"
+            },
+            {
+              "id": "C",
+              "text": "increasing very quickly"
+            },
+            {
+              "id": "D",
+              "text": "temporary"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Modest ở đây đi với steady để nói con số khiêm tốn nhưng ổn định (khoảng sáu mươi hộ), tức là còn nhỏ nhưng chấp nhận được."
+        },
+        {
+          "id": "r1-p1-q10",
+          "number": 10,
+          "question": "What is the author's attitude towards the Book Bicycle service?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It is a wasteful use of public money."
+            },
+            {
+              "id": "B",
+              "text": "It is a temporary idea that should be replaced by a bus route."
+            },
+            {
+              "id": "C",
+              "text": "It is a worthwhile small-scale response to a real problem."
+            },
+            {
+              "id": "D",
+              "text": "It is too popular to be managed by volunteers."
+            }
+          ],
+          "answer": "C",
+          "explanation": "Tác giả nêu cả ưu điểm lẫn hạn chế nhưng kết bài bằng nhận định tích cực: với một thị trấn không đủ tiền xây thư viện mới, ba mươi cuốn sách đến trong mưa là một khởi đầu tốt."
+        }
+      ]
+    },
+    {
+      "id": "r1-p2",
+      "partNumber": 2,
+      "title": "Bài 2 – Rừng tí hon trong thành phố",
+      "text": "In a former car park on the edge of a mid-sized European city, an unusual wood is growing. Three years ago the ground was grey asphalt. Today it holds about six hundred young trees, planted so close together that their crowns have already met. The patch is no bigger than a tennis court, yet on a hot afternoon the air inside it feels several degrees cooler than the street outside. This is one of a growing number of mini forests appearing in cities that have little space and less money.\n\nThe planting method is not complicated. Volunteers first remove the asphalt and loosen the soil, mixing in compost and, in some cases, material taken from nearby parks. They then plant native species only, such as oak, hazel, field maple and elder, at a density of three to five young trees per square metre. Because the trees compete for light from the first year, they grow quickly, often reaching four or five metres within a decade. Supporters argue that this speed matters: a mini forest can begin providing shade, absorbing rainwater and sheltering insects while a conventional park is still being planned.\n\nNot everyone is convinced. Critics point out that a patch the size of a tennis court cannot replace the mature woodland that was lost when the city expanded, and they warn that dense planting fails when the soil is poor or when nobody waters the trees through their first two summers. In at least two cities, well-publicised plantings lost more than half their trees within a year, which gave the whole idea a reputation for being decorative rather than useful. There is also a risk that a small, photogenic project allows a council to claim it is greening the city while approving another car park elsewhere.\n\nThe most careful programmes now measure what they plant. Volunteers record temperature, soil moisture and the number of insect species before and after planting, and they publish the results even when these are disappointing. Schools use the plots for science lessons, which keeps local interest alive long after the photographs have been taken. The lesson from these cities is modest but useful: a mini forest is a tool with clear limits, and it works best when it is treated as one part of a plan rather than as a solution on its own.",
+      "questions": [
+        {
+          "id": "r1-p2-q1",
+          "number": 11,
+          "question": "What is the main idea of the passage?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Mini forests always grow faster than other kinds of woodland."
+            },
+            {
+              "id": "B",
+              "text": "Cities should turn all their parks into car parks."
+            },
+            {
+              "id": "C",
+              "text": "Mini forests can bring real benefits to cities, but only within clear limits."
+            },
+            {
+              "id": "D",
+              "text": "Dense planting has failed everywhere in Europe."
+            }
+          ],
+          "answer": "C",
+          "explanation": "Bài trình bày lợi ích của rừng tí hon (làm mát, giữ nước, thu hút côn trùng) nhưng cũng nêu rõ hạn chế và kết luận nó chỉ là một công cụ có giới hạn, không phải giải pháp duy nhất."
+        },
+        {
+          "id": "r1-p2-q2",
+          "number": 12,
+          "question": "According to the passage, why do the young trees grow quickly?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They compete for light because they are planted close together."
+            },
+            {
+              "id": "B",
+              "text": "They are watered every day for ten years."
+            },
+            {
+              "id": "C",
+              "text": "They all belong to the same species."
+            },
+            {
+              "id": "D",
+              "text": "The soil is covered with asphalt."
+            }
+          ],
+          "answer": "A",
+          "explanation": "Đoạn 2 giải thích cây được trồng với mật độ ba đến năm cây mỗi mét vuông nên ngay từ năm đầu chúng phải cạnh tranh ánh sáng và vì thế lớn nhanh."
+        },
+        {
+          "id": "r1-p2-q3",
+          "number": 13,
+          "question": "The word photogenic in paragraph 3 most nearly means",
+          "options": [
+            {
+              "id": "A",
+              "text": "expensive to maintain"
+            },
+            {
+              "id": "B",
+              "text": "scientifically valuable"
+            },
+            {
+              "id": "C",
+              "text": "difficult to photograph"
+            },
+            {
+              "id": "D",
+              "text": "attractive in photographs"
+            }
+          ],
+          "answer": "D",
+          "explanation": "Photogenic được dùng để nói dự án trông đẹp trên ảnh, nên hội đồng có thể tận dụng nó để tuyên bố đang phủ xanh thành phố. Nghĩa này gắn với cụm the photographs ngay sau đó."
+        },
+        {
+          "id": "r1-p2-q4",
+          "number": 14,
+          "question": "What do critics say about mini forests?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They absorb too much rainwater from the streets."
+            },
+            {
+              "id": "B",
+              "text": "They cannot replace the mature woodland that has been lost."
+            },
+            {
+              "id": "C",
+              "text": "They cost more than a conventional park."
+            },
+            {
+              "id": "D",
+              "text": "They attract too many insects into homes."
+            }
+          ],
+          "answer": "B",
+          "explanation": "Đoạn 3 nêu ý kiến phê bình: một mảnh đất cỡ sân tennis không thể thay thế rừng trưởng thành đã mất khi thành phố mở rộng."
+        },
+        {
+          "id": "r1-p2-q5",
+          "number": 15,
+          "question": "What does the writer imply about councils that approve a mini forest while approving another car park?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They are following the advice of scientists."
+            },
+            {
+              "id": "B",
+              "text": "They are spending too much money on trees."
+            },
+            {
+              "id": "C",
+              "text": "They may use a small project to look greener than they really are."
+            },
+            {
+              "id": "D",
+              "text": "They usually lose the next election."
+            }
+          ],
+          "answer": "C",
+          "explanation": "Tác giả cảnh báo nguy cơ một dự án nhỏ, đẹp trên ảnh cho phép hội đồng tuyên bố đang phủ xanh thành phố trong khi vẫn phê duyệt thêm bãi đỗ xe — tức là làm màu."
+        },
+        {
+          "id": "r1-p2-q6",
+          "number": 16,
+          "question": "What do the most careful programmes do?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They record results such as temperature and insect numbers and publish them, even when disappointing."
+            },
+            {
+              "id": "B",
+              "text": "They plant only species that are not native to the area."
+            },
+            {
+              "id": "C",
+              "text": "They keep schools away from the planting areas."
+            },
+            {
+              "id": "D",
+              "text": "They measure only the height of the trees."
+            }
+          ],
+          "answer": "A",
+          "explanation": "Đoạn 4 cho biết các chương trình cẩn thận ghi lại nhiệt độ, độ ẩm đất và số loài côn trùng trước và sau khi trồng, rồi công bố kết quả kể cả khi không như mong đợi."
+        },
+        {
+          "id": "r1-p2-q7",
+          "number": 17,
+          "question": "In paragraph 4, the plots refers to",
+          "options": [
+            {
+              "id": "A",
+              "text": "plans written by the council"
+            },
+            {
+              "id": "B",
+              "text": "car parks in the city centre"
+            },
+            {
+              "id": "C",
+              "text": "the published research results"
+            },
+            {
+              "id": "D",
+              "text": "the small areas where trees were planted"
+            }
+          ],
+          "answer": "D",
+          "explanation": "Plots ở đây là những mảnh đất nhỏ được trồng cây; các trường học dùng chúng làm nơi học tiết khoa học."
+        },
+        {
+          "id": "r1-p2-q8",
+          "number": 18,
+          "question": "The word sheltering in paragraph 2 is closest in meaning to",
+          "options": [
+            {
+              "id": "A",
+              "text": "feeding"
+            },
+            {
+              "id": "B",
+              "text": "protecting"
+            },
+            {
+              "id": "C",
+              "text": "counting"
+            },
+            {
+              "id": "D",
+              "text": "removing"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Sheltering insects nghĩa là tạo nơi trú ẩn, che chở cho côn trùng, gần nghĩa nhất với protecting."
+        },
+        {
+          "id": "r1-p2-q9",
+          "number": 19,
+          "question": "What can be inferred about the two cities where plantings lost more than half their trees?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Poor soil or a lack of watering may have damaged the project's reputation."
+            },
+            {
+              "id": "B",
+              "text": "The trees were planted too far apart."
+            },
+            {
+              "id": "C",
+              "text": "The projects were never publicised."
+            },
+            {
+              "id": "D",
+              "text": "Local schools refused to take part."
+            }
+          ],
+          "answer": "A",
+          "explanation": "Đoạn 3 nói việc trồng dày thất bại khi đất kém hoặc không ai tưới cây trong hai mùa hè đầu, và những dự án thất bại được công bố rộng rãi đã khiến ý tưởng này mang tiếng chỉ để trang trí."
+        },
+        {
+          "id": "r1-p2-q10",
+          "number": 20,
+          "question": "What is the author's main purpose in writing this passage?",
+          "options": [
+            {
+              "id": "A",
+              "text": "To persuade cities to stop planting trees."
+            },
+            {
+              "id": "B",
+              "text": "To advertise a particular planting company."
+            },
+            {
+              "id": "C",
+              "text": "To give a balanced account of a popular urban idea."
+            },
+            {
+              "id": "D",
+              "text": "To explain how to grow oak trees at home."
+            }
+          ],
+          "answer": "C",
+          "explanation": "Bài trình bày cả ưu điểm, phê bình và cách các thành phố đang đo lường kết quả, nên mục đích là đưa ra cái nhìn cân bằng về một ý tưởng đang phổ biến."
+        }
+      ]
+    },
+    {
+      "id": "r1-p3",
+      "partNumber": 3,
+      "title": "Bài 3 – Cái giá ẩn của nội thất nhanh và rẻ",
+      "text": "When a young couple move into their first flat, one of the first things they buy is a sofa. The one they choose costs about as much as a family meal out. It arrives in a flat cardboard box, takes forty minutes to assemble, and for a few months it looks exactly like the photograph on the website. Then one corner begins to sag. By the second year the fabric has worn through where people sit, and by the third the couple are ordering a replacement. The old sofa waits on the pavement outside until someone collects it.\n\nThe price on the label, however, is not the whole cost. Cheap furniture is usually built from particleboard and thin veneer, materials that cannot easily be repaired once they break. A sofa that lasts three years instead of fifteen means five sofas over the same period, five deliveries, and five items sent to landfill or burned. The people who assemble these products are often paid very little, and the wood and glue inside them are difficult to recycle. None of this appears in the advertisement, which shows a bright room, a plant, and a person smiling on a sofa that seems to have no history at all.\n\nIt would be unfair to blame shoppers alone. Many people live in rented flats where they cannot fix anything to the wall and expect to move again in two years. A deposit and a first month's rent can swallow a salary, and a well-made sofa may cost more than a month's wages. Fashion plays a part too: colours and shapes change quickly, and a piece that looked modern in spring can feel dated by winter. Buying cheaply is often a reasonable response to an unreasonable situation.\n\nStill, some habits are changing. Repair cafés, second-hand websites and furniture libraries are growing in many towns, and a few countries now require manufacturers to publish information about how long a product can be expected to last. The most useful change may be simpler: when buying something new, ask how it will be repaired, and whether an answer exists at all.",
+      "questions": [
+        {
+          "id": "r1-p3-q1",
+          "number": 21,
+          "question": "What is the main idea of the passage?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Cheap furniture is always a bad choice for young people."
+            },
+            {
+              "id": "B",
+              "text": "Furniture should be made only from solid wood."
+            },
+            {
+              "id": "C",
+              "text": "Repair cafés are the only solution to the waste problem."
+            },
+            {
+              "id": "D",
+              "text": "Low prices hide costs to buyers, workers and the environment."
+            }
+          ],
+          "answer": "D",
+          "explanation": "Bài tập trung vào những chi phí không hiện trên nhãn giá: phải thay thường xuyên, rác thải, lương thấp và khó tái chế. Các phương án khác là những khẳng định quá mạnh mà bài không nêu."
+        },
+        {
+          "id": "r1-p3-q2",
+          "number": 22,
+          "question": "Why is cheap furniture difficult to repair?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It is too heavy to move."
+            },
+            {
+              "id": "B",
+              "text": "It is built from particleboard and thin veneer."
+            },
+            {
+              "id": "C",
+              "text": "Shops refuse to sell spare parts."
+            },
+            {
+              "id": "D",
+              "text": "It is usually imported from abroad."
+            }
+          ],
+          "answer": "B",
+          "explanation": "Đoạn 2 nêu vật liệu thường dùng là ván dăm và lớp veneer mỏng — những vật liệu khó sửa khi hỏng."
+        },
+        {
+          "id": "r1-p3-q3",
+          "number": 23,
+          "question": "The phrase swallow a salary in paragraph 3 is closest in meaning to",
+          "options": [
+            {
+              "id": "A",
+              "text": "use up most of a person's income"
+            },
+            {
+              "id": "B",
+              "text": "increase a person's pay"
+            },
+            {
+              "id": "C",
+              "text": "be paid in monthly amounts"
+            },
+            {
+              "id": "D",
+              "text": "be refused by a landlord"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Ngữ cảnh nói tiền đặt cọc và tiền thuê tháng đầu có thể ngốn hết tiền lương, nên swallow a salary nghĩa là chiếm gần hết thu nhập."
+        },
+        {
+          "id": "r1-p3-q4",
+          "number": 24,
+          "question": "What does the writer suggest about people who buy cheap furniture?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They do not care about the environment at all."
+            },
+            {
+              "id": "B",
+              "text": "They are usually badly informed about materials."
+            },
+            {
+              "id": "C",
+              "text": "Their choices are often reasonable given their situation."
+            },
+            {
+              "id": "D",
+              "text": "They buy too much furniture for small flats."
+            }
+          ],
+          "answer": "C",
+          "explanation": "Đoạn 3 nói thật không công bằng khi chỉ trách người mua, vì sống trong nhà thuê, chuyển nhà thường xuyên và chi phí ban đầu lớn khiến việc mua rẻ là phản ứng hợp lý."
+        },
+        {
+          "id": "r1-p3-q5",
+          "number": 25,
+          "question": "According to the passage, what usually happens to a cheap sofa when it is replaced?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It is repaired and sold again."
+            },
+            {
+              "id": "B",
+              "text": "It is returned to the manufacturer."
+            },
+            {
+              "id": "C",
+              "text": "It is given to a charity shop."
+            },
+            {
+              "id": "D",
+              "text": "It goes to landfill or is burned."
+            }
+          ],
+          "answer": "D",
+          "explanation": "Đoạn 2 tính rằng năm chiếc ghế trong cùng thời gian đồng nghĩa năm món đồ bị đưa ra bãi rác hoặc bị đốt; đoạn 1 cũng tả chiếc ghế cũ nằm chờ ngoài vỉa hè."
+        },
+        {
+          "id": "r1-p3-q6",
+          "number": 26,
+          "question": "What does the advertisement described in paragraph 2 fail to show?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The conditions in which the furniture was made and how short its life will be."
+            },
+            {
+              "id": "B",
+              "text": "The colour of the sofa."
+            },
+            {
+              "id": "C",
+              "text": "The price of the sofa."
+            },
+            {
+              "id": "D",
+              "text": "The name of the shop."
+            }
+          ],
+          "answer": "A",
+          "explanation": "Tác giả nói không điều nào trong số chi phí ẩn xuất hiện trong quảng cáo, nơi chỉ có căn phòng sáng, một chậu cây và người mẫu cười trên chiếc ghế như thể không có quá khứ."
+        },
+        {
+          "id": "r1-p3-q7",
+          "number": 27,
+          "question": "The word dated in paragraph 3 most nearly means",
+          "options": [
+            {
+              "id": "A",
+              "text": "expensive"
+            },
+            {
+              "id": "B",
+              "text": "old-fashioned"
+            },
+            {
+              "id": "C",
+              "text": "comfortable"
+            },
+            {
+              "id": "D",
+              "text": "well made"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Câu này nói món đồ trông hiện đại vào mùa xuân có thể bị coi là lỗi mốt vào mùa đông, nên dated gần nghĩa với old-fashioned."
+        },
+        {
+          "id": "r1-p3-q8",
+          "number": 28,
+          "question": "Why does the author mention repair cafés and furniture libraries?",
+          "options": [
+            {
+              "id": "A",
+              "text": "To prove that buying new furniture is never necessary."
+            },
+            {
+              "id": "B",
+              "text": "To criticise governments for doing nothing."
+            },
+            {
+              "id": "C",
+              "text": "To show that some practical alternatives are emerging."
+            },
+            {
+              "id": "D",
+              "text": "To advertise a particular shop."
+            }
+          ],
+          "answer": "C",
+          "explanation": "Đoạn 4 dùng các ví dụ này để cho thấy thói quen đang thay đổi và đã có những lựa chọn thay thế thiết thực, không phải để phủ nhận hoàn toàn việc mua mới."
+        },
+        {
+          "id": "r1-p3-q9",
+          "number": 29,
+          "question": "In the final paragraph, the answer refers to",
+          "options": [
+            {
+              "id": "A",
+              "text": "the price of a new sofa"
+            },
+            {
+              "id": "B",
+              "text": "the name of the manufacturer"
+            },
+            {
+              "id": "C",
+              "text": "the country where the sofa was made"
+            },
+            {
+              "id": "D",
+              "text": "how the item could be repaired"
+            }
+          ],
+          "answer": "D",
+          "explanation": "Câu cuối khuyên người mua hỏi xem món đồ sẽ được sửa như thế nào, và liệu có câu trả lời cho câu hỏi đó hay không."
+        },
+        {
+          "id": "r1-p3-q10",
+          "number": 30,
+          "question": "What does the writer recommend in the last sentence?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Buying furniture only from second-hand websites."
+            },
+            {
+              "id": "B",
+              "text": "Asking about repairability before buying something new."
+            },
+            {
+              "id": "C",
+              "text": "Avoiding all flat-pack furniture."
+            },
+            {
+              "id": "D",
+              "text": "Waiting for new laws before buying anything."
+            }
+          ],
+          "answer": "B",
+          "explanation": "Tác giả đề xuất một thay đổi đơn giản: trước khi mua đồ mới, hãy hỏi nó sẽ được sửa thế nào. Các phương án còn lại là những lời khuyên quá tuyệt đối mà bài không đưa ra."
+        }
+      ]
+    },
+    {
+      "id": "r1-p4",
+      "partNumber": 4,
+      "title": "Bài 4 – Học cách nói không ở nơi làm việc",
+      "text": "Sara has worked as a project manager for eight years, and for most of that time she has said yes to almost everything. When a colleague asked her to review a report, she said yes. When her manager mentioned a small extra task that nobody else had time for, she said yes to that as well. By Thursday evening she was answering emails at her kitchen table, and by Friday morning she had made a mistake in a document that three other people depended on.\n\nHer problem is not laziness or poor planning. It is a habit that many workplaces quietly reward. Saying yes makes you seem helpful, committed and easy to work with, and in the short term it usually does make the day run more smoothly. Saying no, on the other hand, requires a sentence that can sound like a refusal of the person rather than of the task. Women, junior staff and anyone on a temporary contract often report feeling that the risk of saying no is higher for them, because being seen as difficult can affect how they are judged at the end of the year.\n\nWhat helps, according to people who have studied workplace communication, is to make the decision about the task rather than the relationship. A useful first step is to ask which of your current jobs should wait while the new one is done. This turns a private struggle into a question about priorities, and it is the manager's job to answer it. A second step is to be specific: I can do the first section by Tuesday, but not the whole report is easier to accept than a vague promise. A third is timing. Requests made in a corridor two minutes before a meeting are rarely urgent, and it is reasonable to reply that you will look at your workload and answer by the end of the day.\n\nNone of this means refusing work that is genuinely part of the job. The aim is not to protect an empty calendar but to protect the work that matters. Sara now keeps a short list of her three main tasks and checks any new request against it. She says no perhaps twice a month, always with an alternative, and her manager has not once described her as unhelpful.",
+      "questions": [
+        {
+          "id": "r1-p4-q1",
+          "number": 31,
+          "question": "What is the main idea of the passage?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Many employees agree to too many requests and pay for it later."
+            },
+            {
+              "id": "B",
+              "text": "Project managers should never help their colleagues."
+            },
+            {
+              "id": "C",
+              "text": "Saying no is impossible in modern workplaces."
+            },
+            {
+              "id": "D",
+              "text": "Managers give far too little work to their teams."
+            }
+          ],
+          "answer": "A",
+          "explanation": "Bài kể chuyện Sara luôn nhận mọi việc rồi mắc lỗi, giải thích nguyên nhân và đưa ra cách nói không hợp lý. Trọng tâm là việc nhận quá nhiều việc sẽ gây hậu quả."
+        },
+        {
+          "id": "r1-p4-q2",
+          "number": 32,
+          "question": "What happened to Sara by Friday morning?",
+          "options": [
+            {
+              "id": "A",
+              "text": "She was promoted to a new role."
+            },
+            {
+              "id": "B",
+              "text": "She refused a request from her manager."
+            },
+            {
+              "id": "C",
+              "text": "She made a mistake in a document that others depended on."
+            },
+            {
+              "id": "D",
+              "text": "She left the office earlier than usual."
+            }
+          ],
+          "answer": "C",
+          "explanation": "Đoạn 1 kết thúc bằng việc sáng thứ Sáu cô đã mắc lỗi trong một tài liệu mà ba người khác phụ thuộc vào."
+        },
+        {
+          "id": "r1-p4-q3",
+          "number": 33,
+          "question": "Why does the writer mention women, junior staff and temporary workers?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They are more likely to be lazy at work."
+            },
+            {
+              "id": "B",
+              "text": "They receive fewer requests than other employees."
+            },
+            {
+              "id": "C",
+              "text": "They are usually better at saying no."
+            },
+            {
+              "id": "D",
+              "text": "They may feel the risk of refusing is higher for them."
+            }
+          ],
+          "answer": "D",
+          "explanation": "Đoạn 2 nêu rằng những nhóm này thường cảm thấy rủi ro khi nói không cao hơn, vì bị coi là khó hợp tác có thể ảnh hưởng đến đánh giá cuối năm."
+        },
+        {
+          "id": "r1-p4-q4",
+          "number": 34,
+          "question": "The word reward in paragraph 2 is closest in meaning to",
+          "options": [
+            {
+              "id": "A",
+              "text": "punish"
+            },
+            {
+              "id": "B",
+              "text": "encourage by giving an advantage"
+            },
+            {
+              "id": "C",
+              "text": "hide"
+            },
+            {
+              "id": "D",
+              "text": "measure"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Reward ở đây nghĩa là nơi làm việc ngầm khuyến khích thói quen này bằng cách đánh giá cao người luôn nhận việc, gần nghĩa với encourage by giving an advantage."
+        },
+        {
+          "id": "r1-p4-q5",
+          "number": 35,
+          "question": "According to the passage, what is a useful first step when a new request arrives?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Ask which current tasks should wait."
+            },
+            {
+              "id": "B",
+              "text": "Accept it and work later in the evening."
+            },
+            {
+              "id": "C",
+              "text": "Ask a colleague to do it instead."
+            },
+            {
+              "id": "D",
+              "text": "Wait until the end of the year to reply."
+            }
+          ],
+          "answer": "A",
+          "explanation": "Đoạn 3 nói bước đầu tiên hữu ích là hỏi việc nào trong số các việc hiện tại nên tạm hoãn, biến vấn đề cá nhân thành câu hỏi về thứ tự ưu tiên."
+        },
+        {
+          "id": "r1-p4-q6",
+          "number": 36,
+          "question": "Why does the writer prefer a specific answer such as I can do the first section by Tuesday?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It shows that you are unwilling to help at all."
+            },
+            {
+              "id": "B",
+              "text": "It is shorter than other kinds of answer."
+            },
+            {
+              "id": "C",
+              "text": "It avoids mentioning the manager."
+            },
+            {
+              "id": "D",
+              "text": "It is easier for the other person to accept."
+            }
+          ],
+          "answer": "D",
+          "explanation": "Đoạn 3 nói rõ một câu trả lời cụ thể dễ được chấp nhận hơn một lời hứa chung chung, vì người kia biết chính xác sẽ nhận được gì."
+        },
+        {
+          "id": "r1-p4-q7",
+          "number": 37,
+          "question": "What does the writer imply about requests made in a corridor just before a meeting?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They are always the most important ones."
+            },
+            {
+              "id": "B",
+              "text": "They should be answered immediately."
+            },
+            {
+              "id": "C",
+              "text": "They are rarely urgent and can wait for a considered reply."
+            },
+            {
+              "id": "D",
+              "text": "They are usually made by senior managers."
+            }
+          ],
+          "answer": "C",
+          "explanation": "Đoạn 3 nói những yêu cầu kiểu này hiếm khi gấp, và việc trả lời rằng bạn sẽ xem khối lượng công việc rồi phản hồi cuối ngày là hợp lý."
+        },
+        {
+          "id": "r1-p4-q8",
+          "number": 38,
+          "question": "The phrase protect an empty calendar in paragraph 4 suggests",
+          "options": [
+            {
+              "id": "A",
+              "text": "keeping a written record of meetings"
+            },
+            {
+              "id": "B",
+              "text": "having no work at all, which is not the aim"
+            },
+            {
+              "id": "C",
+              "text": "planning holidays very carefully"
+            },
+            {
+              "id": "D",
+              "text": "avoiding all contact with colleagues"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Tác giả nói mục đích không phải giữ một lịch trống rỗng mà là bảo vệ những công việc thực sự quan trọng; đây là cách nói phủ định để phân biệt với việc trốn việc."
+        },
+        {
+          "id": "r1-p4-q9",
+          "number": 39,
+          "question": "What is the author's purpose in the final paragraph?",
+          "options": [
+            {
+              "id": "A",
+              "text": "To clarify that saying no should not mean avoiding genuine work."
+            },
+            {
+              "id": "B",
+              "text": "To show that Sara's manager is disappointed with her."
+            },
+            {
+              "id": "C",
+              "text": "To recommend that readers change jobs."
+            },
+            {
+              "id": "D",
+              "text": "To explain how to organise a calendar."
+            }
+          ],
+          "answer": "A",
+          "explanation": "Đoạn cuối mở đầu bằng câu khẳng định rằng điều này không có nghĩa là từ chối công việc vốn thuộc về mình, rồi minh họa bằng cách Sara làm hiện nay."
+        },
+        {
+          "id": "r1-p4-q10",
+          "number": 40,
+          "question": "Which statement best summarises the writer's advice?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Refuse every request you did not expect."
+            },
+            {
+              "id": "B",
+              "text": "Only senior staff can say no safely."
+            },
+            {
+              "id": "C",
+              "text": "Saying no is easier than saying yes."
+            },
+            {
+              "id": "D",
+              "text": "Decide about the task, not the person, and offer an alternative."
+            }
+          ],
+          "answer": "D",
+          "explanation": "Đoạn 3 khuyên đưa quyết định về phía công việc chứ không phải mối quan hệ, và đoạn cuối nhấn mạnh Sara luôn nói không kèm một phương án thay thế."
+        }
+      ]
+    }
+  ]
+}

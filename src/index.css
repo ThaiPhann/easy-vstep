@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-slate-50 text-slate-900 antialiased;
+    font-family:
+      ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial,
+      sans-serif;
+  }
+
+  .dark body {
+    @apply bg-slate-950 text-slate-100;
+  }
+
+  ::selection {
+    @apply bg-teal-200 text-teal-950;
+  }
+
+  .dark ::selection {
+    @apply bg-teal-800 text-teal-50;
+  }
+
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-teal-600;
+  }
+
+  .dark :focus-visible {
+    @apply outline-teal-400;
+  }
+
+  audio {
+    width: 100%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

@@ -1,0 +1,1040 @@
+{
+  "id": "reading-02",
+  "skill": "reading",
+  "title": "Đề Reading 02 – Môi trường & cộng đồng",
+  "durationMinutes": 60,
+  "parts": [
+    {
+      "id": "r2-p1",
+      "partNumber": 1,
+      "title": "Bài 1 – Chuyến tàu đêm lên Sa Pa",
+      "text": "For many visitors to northern Vietnam, the journey to Sa Pa begins not at a bus station but on a train platform in Hanoi, shortly after nine in the evening. The night train to Lao Cai is slower and more expensive than the sleeper buses that leave from the same city, yet it remains a popular choice, and the reasons have as much to do with comfort and rhythm as with speed.\n\nThe first advantage is simple: a night on the train replaces a night in a hotel. Travellers board, settle into a small cabin with four berths, and wake up roughly eight hours later in Lao Cai, about an hour's drive from Sa Pa itself. Because the train travels while they sleep, they lose no sightseeing time. A bus passenger, by contrast, either spends a full day on the road or arrives exhausted after a sleepless overnight trip in a narrow seat.\n\nComfort matters too. The train offers soft berths with clean sheets, reading lights, and a door that closes. Families with young children often book an entire cabin, which gives them privacy and a place to spread out snacks and games. Solo travellers frequently choose the cheaper hard-berth carriages, where strangers quickly become companions; by morning they have usually shared stories, fruit, and advice about which villages are worth visiting.\n\nThere is also the view. The train leaves the city and climbs through valleys and rice terraces as the light comes up, passing small stations where local people board with baskets of vegetables. Passengers who wake early describe the last two hours as the best part of the trip, a slow introduction to the landscape they have come to see. Photographers often book the left-hand side of the carriage for this reason.\n\nNone of this means the train is perfect. Delays are common, cabins can be noisy, and tickets for the most comfortable carriages sell out weeks in advance during the high season. Yet for many travellers the trade-off is worth it. The night train has become part of the holiday rather than a delay before it, a gentle transition between the noise of Hanoi and the quiet mountains of the north.",
+      "questions": [
+        {
+          "id": "r2-p1-q1",
+          "number": 1,
+          "question": "What is the passage mainly about?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Why a night train to Sa Pa is popular despite its disadvantages"
+            },
+            {
+              "id": "B",
+              "text": "How to buy cheap tickets for trains in Vietnam"
+            },
+            {
+              "id": "C",
+              "text": "The history of the railway between Hanoi and Lao Cai"
+            },
+            {
+              "id": "D",
+              "text": "Why buses are a better choice for families"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Cả bài trình bày lý do du khách chọn tàu đêm lên Sa Pa (ngủ trên tàu, tiện nghi, phong cảnh) dù thừa nhận nhược điểm ở đoạn cuối. Các phương án khác chỉ là chi tiết phụ hoặc không được bàn tới."
+        },
+        {
+          "id": "r2-p1-q2",
+          "number": 2,
+          "question": "According to the passage, what is one benefit of travelling by night train rather than by bus?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The train ticket is always cheaper."
+            },
+            {
+              "id": "B",
+              "text": "Passengers do not lose a day of sightseeing."
+            },
+            {
+              "id": "C",
+              "text": "The train arrives directly in the centre of Sa Pa."
+            },
+            {
+              "id": "D",
+              "text": "Passengers can cook their own meals on board."
+            }
+          ],
+          "answer": "B",
+          "explanation": "Đoạn 2 nêu rõ tàu chạy trong lúc hành khách ngủ nên họ 'lose no sightseeing time', trong khi khách đi xe buýt mất cả ngày hoặc đến nơi mệt mỏi."
+        },
+        {
+          "id": "r2-p1-q3",
+          "number": 3,
+          "question": "The word \"settle\" in paragraph 2 is closest in meaning to",
+          "options": [
+            {
+              "id": "A",
+              "text": "pay"
+            },
+            {
+              "id": "B",
+              "text": "complain"
+            },
+            {
+              "id": "C",
+              "text": "get comfortable"
+            },
+            {
+              "id": "D",
+              "text": "argue"
+            }
+          ],
+          "answer": "C",
+          "explanation": "'Settle into a small cabin' nghĩa là ổn định chỗ ngồi, sắp xếp cho thoải mái trong khoang tàu, gần nghĩa nhất với 'get comfortable'."
+        },
+        {
+          "id": "r2-p1-q4",
+          "number": 4,
+          "question": "Why do families with young children often book a whole cabin?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It is the only way to get a window seat."
+            },
+            {
+              "id": "B",
+              "text": "Children are not allowed in shared carriages."
+            },
+            {
+              "id": "C",
+              "text": "It costs less than four separate hard-berth tickets."
+            },
+            {
+              "id": "D",
+              "text": "It gives them privacy and space for snacks and games."
+            }
+          ],
+          "answer": "D",
+          "explanation": "Đoạn 3 giải thích việc đặt trọn khoang giúp gia đình có không gian riêng tư và chỗ để đồ ăn, trò chơi cho trẻ nhỏ."
+        },
+        {
+          "id": "r2-p1-q5",
+          "number": 5,
+          "question": "What does the passage suggest about solo travellers in hard-berth carriages?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They usually keep to themselves."
+            },
+            {
+              "id": "B",
+              "text": "They often become friendly with other passengers."
+            },
+            {
+              "id": "C",
+              "text": "They regret not paying for a soft berth."
+            },
+            {
+              "id": "D",
+              "text": "They prefer to travel during the day."
+            }
+          ],
+          "answer": "B",
+          "explanation": "Đoạn 3 cho biết người đi một mình 'strangers quickly become companions' và đến sáng thường chia sẻ chuyện, hoa quả và lời khuyên — tức là trở nên thân thiện."
+        },
+        {
+          "id": "r2-p1-q6",
+          "number": 6,
+          "question": "The word \"they\" in paragraph 4 refers to",
+          "options": [
+            {
+              "id": "A",
+              "text": "local people at the small stations"
+            },
+            {
+              "id": "B",
+              "text": "the rice terraces"
+            },
+            {
+              "id": "C",
+              "text": "passengers who wake early"
+            },
+            {
+              "id": "D",
+              "text": "the photographers"
+            }
+          ],
+          "answer": "C",
+          "explanation": "Câu trước nhắc đến 'Passengers who wake early', và 'they' trong 'the landscape they have come to see' chính là những hành khách này."
+        },
+        {
+          "id": "r2-p1-q7",
+          "number": 7,
+          "question": "Why do photographers book the left-hand side of the carriage?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It is quieter than the other side."
+            },
+            {
+              "id": "B",
+              "text": "It is closer to the dining car."
+            },
+            {
+              "id": "C",
+              "text": "It has larger windows."
+            },
+            {
+              "id": "D",
+              "text": "It offers the best views as the light comes up."
+            }
+          ],
+          "answer": "D",
+          "explanation": "Đoạn 4 nói hành khách thức sớm thấy hai giờ cuối là phần hay nhất vì ngắm cảnh, và 'Photographers often book the left-hand side of the carriage for this reason' — tức để có góc nhìn đẹp nhất."
+        },
+        {
+          "id": "r2-p1-q8",
+          "number": 8,
+          "question": "Which of the following is mentioned as a disadvantage of the night train?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Passengers cannot bring children."
+            },
+            {
+              "id": "B",
+              "text": "There are no sheets on the beds."
+            },
+            {
+              "id": "C",
+              "text": "The journey takes more than a day."
+            },
+            {
+              "id": "D",
+              "text": "Cabins can be noisy."
+            }
+          ],
+          "answer": "D",
+          "explanation": "Đoạn 5 liệt kê nhược điểm: tàu hay trễ, khoang có thể ồn ('cabins can be noisy') và vé khoang tốt hết sớm vào mùa cao điểm."
+        },
+        {
+          "id": "r2-p1-q9",
+          "number": 9,
+          "question": "What can be inferred about the writer's attitude towards the night train?",
+          "options": [
+            {
+              "id": "A",
+              "text": "He or she thinks it is a waste of money."
+            },
+            {
+              "id": "B",
+              "text": "He or she regards it as a worthwhile experience overall."
+            },
+            {
+              "id": "C",
+              "text": "He or she believes buses should be avoided completely."
+            },
+            {
+              "id": "D",
+              "text": "He or she thinks the journey is too short."
+            }
+          ],
+          "answer": "B",
+          "explanation": "Đoạn cuối khẳng định 'the trade-off is worth it' và gọi tàu đêm là 'part of the holiday', cho thấy tác giả đánh giá đây là trải nghiệm đáng giá dù có nhược điểm."
+        },
+        {
+          "id": "r2-p1-q10",
+          "number": 10,
+          "question": "What is the purpose of the last paragraph?",
+          "options": [
+            {
+              "id": "A",
+              "text": "To admit the train's faults and still recommend the experience"
+            },
+            {
+              "id": "B",
+              "text": "To explain how to get a refund for delayed trains"
+            },
+            {
+              "id": "C",
+              "text": "To compare ticket prices in different seasons"
+            },
+            {
+              "id": "D",
+              "text": "To warn readers never to travel by train"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Đoạn cuối thừa nhận hạn chế (trễ, ồn, vé khan hiếm) rồi kết luận lợi ích vẫn xứng đáng, tức vừa nêu nhược điểm vừa khuyến khích trải nghiệm."
+        }
+      ]
+    },
+    {
+      "id": "r2-p2",
+      "partNumber": 2,
+      "title": "Bài 2 – Ngôi trường hạn chế màn hình",
+      "text": "At Greenfield Secondary School, the first thing a visitor notices is what is missing. There are no phones on the desks, no tablets handed out at the start of a lesson, and no screens glowing along the back wall. Two years ago the school introduced a simple rule: during lessons and breaks, students keep their devices in lockers by the main entrance. Only teachers may use screens for teaching.\n\nThe decision was not popular at first. Many parents worried that their children would fall behind in a world that runs on technology. Students complained that they could not check messages or finish homework during free periods. The head teacher, however, had collected data showing that teachers were spending a growing share of each lesson asking students to put phones away, and that arguments over devices were damaging relationships between staff and pupils.\n\nThe results after two years have surprised even the sceptics. Teachers report that lessons now start more quickly, because there is no longer a five-minute battle at the beginning of each class. Students say they talk to classmates they did not know before, simply because there is nothing else to do at lunchtime. The library, once almost empty, is now full during breaks, and the number of students joining after-school clubs has doubled.\n\nPerhaps the most striking change concerns attention. In a survey last spring, 78 per cent of students said they found it easier to concentrate on long tasks such as essays and experiments. Several teachers noticed that pupils were more willing to sit with a difficult problem instead of looking for a quick answer online. One science teacher described the change as \"small but real\": students still make mistakes, but they now expect to work through them.\n\nThe school is careful not to present itself as anti-technology. Computer science is taught in a dedicated lab, and older students take a course on using the internet safely and judging whether information is reliable. The rule, staff insist, is not about rejecting screens but about choosing when they belong. As the head teacher puts it, the aim is for students to leave Greenfield able to focus on something for more than thirty seconds — a skill, she argues, that will serve them long after they have forgotten how to use any particular app.",
+      "questions": [
+        {
+          "id": "r2-p2-q1",
+          "number": 11,
+          "question": "What is the main idea of the passage?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Technology should be banned in all schools."
+            },
+            {
+              "id": "B",
+              "text": "A school's limit on screens has brought unexpected benefits."
+            },
+            {
+              "id": "C",
+              "text": "Parents are usually wrong about education."
+            },
+            {
+              "id": "D",
+              "text": "Students prefer reading to using computers."
+            }
+          ],
+          "answer": "B",
+          "explanation": "Toàn bài kể về quy định hạn chế thiết bị của trường Greenfield và những lợi ích bất ngờ sau hai năm (tập trung tốt hơn, thư viện đông, câu lạc bộ tăng)."
+        },
+        {
+          "id": "r2-p2-q2",
+          "number": 12,
+          "question": "What does the school rule require students to do?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Keep their devices in lockers during lessons and breaks"
+            },
+            {
+              "id": "B",
+              "text": "Leave their phones at home every day"
+            },
+            {
+              "id": "C",
+              "text": "Use tablets only for homework"
+            },
+            {
+              "id": "D",
+              "text": "Hand their phones to their parents each morning"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Đoạn 1 nêu rõ học sinh để thiết bị trong tủ khóa ở cửa chính trong giờ học và giờ nghỉ; chỉ giáo viên được dùng màn hình để dạy."
+        },
+        {
+          "id": "r2-p2-q3",
+          "number": 13,
+          "question": "Why were some parents worried at first?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They thought the lockers were too expensive."
+            },
+            {
+              "id": "B",
+              "text": "They feared their children would fall behind technologically."
+            },
+            {
+              "id": "C",
+              "text": "They believed teachers would lose their jobs."
+            },
+            {
+              "id": "D",
+              "text": "They wanted longer breaks for students."
+            }
+          ],
+          "answer": "B",
+          "explanation": "Đoạn 2 cho biết phụ huynh lo con mình 'would fall behind in a world that runs on technology', tức tụt lại trong thế giới công nghệ."
+        },
+        {
+          "id": "r2-p2-q4",
+          "number": 14,
+          "question": "The word \"sceptics\" in paragraph 3 refers to people who",
+          "options": [
+            {
+              "id": "A",
+              "text": "designed the new rule"
+            },
+            {
+              "id": "B",
+              "text": "teach computer science"
+            },
+            {
+              "id": "C",
+              "text": "doubted the rule would work"
+            },
+            {
+              "id": "D",
+              "text": "surveyed the students"
+            }
+          ],
+          "answer": "C",
+          "explanation": "'Sceptics' là người hoài nghi; câu nói kết quả khiến 'even the sceptics' bất ngờ, tức những người từng không tin quy định sẽ hiệu quả."
+        },
+        {
+          "id": "r2-p2-q5",
+          "number": 15,
+          "question": "Which change is NOT mentioned in paragraph 3?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Lessons start more quickly."
+            },
+            {
+              "id": "B",
+              "text": "The library is fuller at breaks."
+            },
+            {
+              "id": "C",
+              "text": "More students join after-school clubs."
+            },
+            {
+              "id": "D",
+              "text": "Exam results have risen sharply."
+            }
+          ],
+          "answer": "D",
+          "explanation": "Đoạn 3 chỉ nhắc lớp học bắt đầu nhanh hơn, học sinh trò chuyện nhiều hơn, thư viện đông và câu lạc bộ tăng gấp đôi; không có thông tin về điểm thi."
+        },
+        {
+          "id": "r2-p2-q6",
+          "number": 16,
+          "question": "What did 78 per cent of students say in the survey?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They missed their phones during breaks."
+            },
+            {
+              "id": "B",
+              "text": "They wanted more computer science lessons."
+            },
+            {
+              "id": "C",
+              "text": "They found long tasks easier to concentrate on."
+            },
+            {
+              "id": "D",
+              "text": "They used the internet more for research."
+            }
+          ],
+          "answer": "C",
+          "explanation": "Đoạn 4 dẫn khảo sát: 78% học sinh nói dễ tập trung hơn vào các nhiệm vụ dài như viết luận hay làm thí nghiệm."
+        },
+        {
+          "id": "r2-p2-q7",
+          "number": 17,
+          "question": "What does the science teacher mean by \"small but real\"?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The change is hard to see but genuinely exists."
+            },
+            {
+              "id": "B",
+              "text": "The improvement is too small to matter."
+            },
+            {
+              "id": "C",
+              "text": "Only a few students improved."
+            },
+            {
+              "id": "D",
+              "text": "The experiment was not successful."
+            }
+          ],
+          "answer": "A",
+          "explanation": "Giáo viên giải thích ngay sau đó: học sinh vẫn mắc lỗi nhưng nay 'expect to work through them' — thay đổi tuy nhỏ nhưng có thật và đáng kể."
+        },
+        {
+          "id": "r2-p2-q8",
+          "number": 18,
+          "question": "How does the school show it is not anti-technology?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It gives every student a free tablet."
+            },
+            {
+              "id": "B",
+              "text": "It allows phones in the classroom."
+            },
+            {
+              "id": "C",
+              "text": "It has removed the lockers."
+            },
+            {
+              "id": "D",
+              "text": "It teaches computer science and internet safety."
+            }
+          ],
+          "answer": "D",
+          "explanation": "Đoạn 5 nêu trường dạy tin học trong phòng lab riêng và có khóa học dùng internet an toàn, đánh giá độ tin cậy thông tin."
+        },
+        {
+          "id": "r2-p2-q9",
+          "number": 19,
+          "question": "According to the head teacher, what is the aim of the rule?",
+          "options": [
+            {
+              "id": "A",
+              "text": "To make students dislike social media"
+            },
+            {
+              "id": "B",
+              "text": "To reduce the school's electricity costs"
+            },
+            {
+              "id": "C",
+              "text": "To prepare students for jobs in technology"
+            },
+            {
+              "id": "D",
+              "text": "To help students focus for longer periods"
+            }
+          ],
+          "answer": "D",
+          "explanation": "Đoạn cuối dẫn lời hiệu trưởng: mục tiêu là học sinh có thể 'focus on something for more than thirty seconds' — tập trung lâu hơn."
+        },
+        {
+          "id": "r2-p2-q10",
+          "number": 20,
+          "question": "What is the author's purpose in writing this passage?",
+          "options": [
+            {
+              "id": "A",
+              "text": "To describe a school policy and its effects"
+            },
+            {
+              "id": "B",
+              "text": "To persuade readers to buy fewer devices"
+            },
+            {
+              "id": "C",
+              "text": "To criticise parents for complaining"
+            },
+            {
+              "id": "D",
+              "text": "To explain how to set up a school locker system"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Bài viết thuật lại chính sách hạn chế màn hình của Greenfield và các kết quả quan sát được, mang tính mô tả và thông tin."
+        }
+      ]
+    },
+    {
+      "id": "r2-p3",
+      "partNumber": 3,
+      "title": "Bài 3 – Quán cà phê sửa chữa",
+      "text": "On the first Saturday of every month, the community hall in a small town outside Bristol fills with an unusual sound: the scrape of screwdrivers, the hum of sewing machines, and the occasional cheer when a stubborn kettle finally boils again. This is a repair café, one of hundreds that have opened across Europe in the past decade.\n\nThe idea began in Amsterdam in 2009, when a journalist named Martine Postma grew tired of watching useful objects go into the bin. Her first event brought together volunteers with practical skills and neighbours with broken possessions. The format was simple. People bring a damaged item, sit with a volunteer, and either fix it together or learn why it cannot be fixed. There is no charge, though donations keep the lights on.\n\nWhat makes repair cafés interesting is not only the repairs themselves. Organisers say the events are really about passing on knowledge. Many visitors arrive believing that a broken toaster or a torn jacket means a trip to the shop. Watching a volunteer open the casing and point to a loose wire changes that assumption. Younger volunteers often teach older visitors to search for spare parts online, while older volunteers show teenagers how to use a soldering iron safely. In this way the café becomes a classroom without a curriculum.\n\nThe environmental argument is obvious but worth stating. Every repaired item is one less object in landfill and one less new product manufactured, with all the energy and raw material that involves. Researchers who have studied the movement estimate that a typical café saves several hundred kilograms of waste a year. That is a small figure compared with industrial waste, but organisers argue that the habit matters more than the number: a person who has repaired one lamp is far more likely to repair the next one.\n\nNot everything can be saved, of course. Cheap plastic casings crack, and some devices are designed so that opening them destroys them. Volunteers are honest about this, and some cafés now run campaigns against products that cannot be repaired. For the people who keep coming back, though, the appeal is simpler. As one regular put it, \"I came for a broken radio and stayed because nobody here tells me to throw things away.\"",
+      "questions": [
+        {
+          "id": "r2-p3-q1",
+          "number": 21,
+          "question": "What is the passage mainly about?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The growing popularity and purpose of repair cafés"
+            },
+            {
+              "id": "B",
+              "text": "How to become a professional repair volunteer"
+            },
+            {
+              "id": "C",
+              "text": "The history of manufacturing in Amsterdam"
+            },
+            {
+              "id": "D",
+              "text": "Why modern appliances are better than old ones"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Bài viết giới thiệu quán cà phê sửa chữa: nguồn gốc, cách hoạt động, giá trị giáo dục và lợi ích môi trường — tức sự phổ biến và mục đích của mô hình này."
+        },
+        {
+          "id": "r2-p3-q2",
+          "number": 22,
+          "question": "Where and when did the repair café movement begin?",
+          "options": [
+            {
+              "id": "A",
+              "text": "In Bristol, in 2019"
+            },
+            {
+              "id": "B",
+              "text": "In Amsterdam, in 2009"
+            },
+            {
+              "id": "C",
+              "text": "In London, in 1999"
+            },
+            {
+              "id": "D",
+              "text": "In Berlin, in 2015"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Đoạn 2 nêu rõ ý tưởng bắt đầu ở Amsterdam năm 2009 với nhà báo Martine Postma."
+        },
+        {
+          "id": "r2-p3-q3",
+          "number": 23,
+          "question": "How does a repair café usually work?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Volunteers repair items alone while owners wait outside."
+            },
+            {
+              "id": "B",
+              "text": "People pay a fixed fee for each repaired item."
+            },
+            {
+              "id": "C",
+              "text": "Owners sit with a volunteer and repair the item together."
+            },
+            {
+              "id": "D",
+              "text": "Items are collected and returned a week later."
+            }
+          ],
+          "answer": "C",
+          "explanation": "Đoạn 2 mô tả: người dân mang đồ hỏng đến, ngồi cùng tình nguyện viên và cùng sửa hoặc học lý do không sửa được; không thu phí."
+        },
+        {
+          "id": "r2-p3-q4",
+          "number": 24,
+          "question": "The word \"assumption\" in paragraph 3 is closest in meaning to",
+          "options": [
+            {
+              "id": "A",
+              "text": "belief"
+            },
+            {
+              "id": "B",
+              "text": "instruction"
+            },
+            {
+              "id": "C",
+              "text": "discount"
+            },
+            {
+              "id": "D",
+              "text": "argument"
+            }
+          ],
+          "answer": "A",
+          "explanation": "'Assumption' là điều được mặc định tin là đúng; ở đây là niềm tin rằng đồ hỏng thì phải mua mới, và việc xem sửa chữa làm thay đổi niềm tin đó."
+        },
+        {
+          "id": "r2-p3-q5",
+          "number": 25,
+          "question": "What example shows that knowledge is passed in both directions?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Older volunteers teach teenagers to search online."
+            },
+            {
+              "id": "B",
+              "text": "Younger volunteers help older visitors find parts online, while older ones teach soldering."
+            },
+            {
+              "id": "C",
+              "text": "Teachers bring classes to the café."
+            },
+            {
+              "id": "D",
+              "text": "Organisers publish a free handbook."
+            }
+          ],
+          "answer": "B",
+          "explanation": "Đoạn 3 nêu tình nguyện viên trẻ dạy người lớn tìm phụ tùng trên mạng, còn người lớn dạy thanh thiếu niên dùng mỏ hàn an toàn — trao đổi hai chiều."
+        },
+        {
+          "id": "r2-p3-q6",
+          "number": 26,
+          "question": "The phrase \"a classroom without a curriculum\" suggests that the café",
+          "options": [
+            {
+              "id": "A",
+              "text": "has no teachers at all"
+            },
+            {
+              "id": "B",
+              "text": "only serves school students"
+            },
+            {
+              "id": "C",
+              "text": "teaches practical skills informally"
+            },
+            {
+              "id": "D",
+              "text": "follows a national education programme"
+            }
+          ],
+          "answer": "C",
+          "explanation": "Cụm này nhấn mạnh việc học diễn ra tự nhiên qua thực hành, không theo chương trình chính thức — tức dạy kỹ năng thực tế một cách không hình thức."
+        },
+        {
+          "id": "r2-p3-q7",
+          "number": 27,
+          "question": "According to paragraph 4, why do organisers value the habit more than the numbers?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Because the waste figures are impossible to measure."
+            },
+            {
+              "id": "B",
+              "text": "Because a person who repairs once is likely to repair again."
+            },
+            {
+              "id": "C",
+              "text": "Because donations are larger when figures are low."
+            },
+            {
+              "id": "D",
+              "text": "Because industry produces no waste."
+            }
+          ],
+          "answer": "B",
+          "explanation": "Đoạn 4 nói con số nhỏ so với rác công nghiệp nhưng thói quen quan trọng hơn: 'a person who has repaired one lamp is far more likely to repair the next one'."
+        },
+        {
+          "id": "r2-p3-q8",
+          "number": 28,
+          "question": "What problem with some modern products is mentioned?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They are too heavy to carry to the café."
+            },
+            {
+              "id": "B",
+              "text": "They use too much electricity."
+            },
+            {
+              "id": "C",
+              "text": "They are designed so that opening them destroys them."
+            },
+            {
+              "id": "D",
+              "text": "They are not sold in local shops."
+            }
+          ],
+          "answer": "C",
+          "explanation": "Đoạn 5 cho biết một số thiết bị được thiết kế đến mức mở ra là hỏng, và vỏ nhựa rẻ dễ nứt; một số quán còn vận động chống lại sản phẩm không sửa được."
+        },
+        {
+          "id": "r2-p3-q9",
+          "number": 29,
+          "question": "Why does the regular visitor say he stayed?",
+          "options": [
+            {
+              "id": "A",
+              "text": "He needed a new radio."
+            },
+            {
+              "id": "B",
+              "text": "He was paid to help."
+            },
+            {
+              "id": "C",
+              "text": "He wanted to sell his old appliances."
+            },
+            {
+              "id": "D",
+              "text": "Nobody there tells him to throw things away."
+            }
+          ],
+          "answer": "D",
+          "explanation": "Câu trích dẫn ở cuối bài: 'I came for a broken radio and stayed because nobody here tells me to throw things away' — lý do là thái độ trân trọng đồ vật."
+        },
+        {
+          "id": "r2-p3-q10",
+          "number": 30,
+          "question": "What can be inferred about the author's view of repair cafés?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They are too expensive for small towns."
+            },
+            {
+              "id": "B",
+              "text": "They will soon replace all manufacturing."
+            },
+            {
+              "id": "C",
+              "text": "They are mainly a way for volunteers to earn money."
+            },
+            {
+              "id": "D",
+              "text": "They are a positive but limited response to waste."
+            }
+          ],
+          "answer": "D",
+          "explanation": "Tác giả thừa nhận con số rác giảm còn nhỏ so với công nghiệp và không phải đồ nào cũng sửa được, nhưng vẫn nhấn mạnh giá trị giáo dục và thói quen — tức tích cực nhưng có giới hạn."
+        }
+      ]
+    },
+    {
+      "id": "r2-p4",
+      "partNumber": 4,
+      "title": "Bài 4 – Cách chúng ta nhớ điều đã đọc",
+      "text": "Most people have had the experience of finishing a chapter, closing the book, and discovering a day later that they can remember almost nothing of it. This is not usually a sign of a poor memory. It is a sign that reading and remembering are two different activities, and that the second one requires effort of its own.\n\nOne of the most useful findings from research on reading is that recognition is not the same as recall. When we read a page, the words feel familiar, and that feeling of familiarity can trick us into believing we have understood and stored the information. In experiments, students who simply reread a text often rate their own learning highly but perform poorly on later tests. Students who close the book and try to explain the main points to themselves — even badly — remember far more, despite feeling less confident at the time.\n\nA second principle concerns how we ask questions of a text. Passive reading moves forward in a straight line, sentence by sentence. Active reading pauses to predict what will come next, to connect a new idea with something already known, and to notice when an argument does not quite fit. These small interruptions feel inefficient, yet they are exactly what creates the mental hooks that later allow information to be found again.\n\nPractical readers use several simple techniques. They preview a chapter by reading headings and the first and last paragraphs before starting. They turn headings into questions and look for answers as they read. They mark only a few key sentences rather than highlighting whole pages, since highlighting everything is a way of avoiding decisions about what matters. And they stop at the end of each section to summarise it in one sentence, in their own words rather than the author's.\n\nNone of this makes reading effortless. In fact, the techniques that improve memory usually make the first reading slower and less pleasant. That trade-off is the point. A reader who finishes a book quickly but recalls nothing has gained less than one who reads half as much and can still explain it a month later. The goal is not to read more pages, but to make sure that the pages we do read leave something behind.",
+      "questions": [
+        {
+          "id": "r2-p4-q1",
+          "number": 31,
+          "question": "What is the main idea of the passage?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Reading quickly is always better than reading slowly."
+            },
+            {
+              "id": "B",
+              "text": "Memory problems are usually permanent."
+            },
+            {
+              "id": "C",
+              "text": "Remembering what we read requires active strategies."
+            },
+            {
+              "id": "D",
+              "text": "Books are less useful than videos for learning."
+            }
+          ],
+          "answer": "C",
+          "explanation": "Bài viết giải thích đọc và ghi nhớ là hai hoạt động khác nhau, và để nhớ cần các chiến lược chủ động như tự kiểm tra, đặt câu hỏi, tóm tắt."
+        },
+        {
+          "id": "r2-p4-q2",
+          "number": 32,
+          "question": "According to paragraph 2, what is the difference between recognition and recall?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Recognition happens only when reading aloud."
+            },
+            {
+              "id": "B",
+              "text": "Recall is a feeling, while recognition is a test."
+            },
+            {
+              "id": "C",
+              "text": "Familiarity can make us think we have learned something when we have not."
+            },
+            {
+              "id": "D",
+              "text": "Recognition is more important for exams."
+            }
+          ],
+          "answer": "C",
+          "explanation": "Đoạn 2 nói cảm giác quen thuộc khi đọc có thể đánh lừa ta rằng đã hiểu và ghi nhớ, trong khi thực tế không lưu được thông tin."
+        },
+        {
+          "id": "r2-p4-q3",
+          "number": 33,
+          "question": "What did experiments show about students who only reread a text?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They remembered more than students who explained ideas."
+            },
+            {
+              "id": "B",
+              "text": "They were less confident but scored higher."
+            },
+            {
+              "id": "C",
+              "text": "They rated their learning highly but did poorly on tests."
+            },
+            {
+              "id": "D",
+              "text": "They refused to take the tests."
+            }
+          ],
+          "answer": "C",
+          "explanation": "Đoạn 2 cho biết sinh viên chỉ đọc lại đánh giá việc học của mình cao nhưng làm bài kiểm tra kém, ngược với nhóm tự giải thích."
+        },
+        {
+          "id": "r2-p4-q4",
+          "number": 34,
+          "question": "The word \"hooks\" in paragraph 3 is used to describe",
+          "options": [
+            {
+              "id": "A",
+              "text": "mental connections that help us retrieve information"
+            },
+            {
+              "id": "B",
+              "text": "physical bookmarks"
+            },
+            {
+              "id": "C",
+              "text": "questions printed in textbooks"
+            },
+            {
+              "id": "D",
+              "text": "tools for faster reading"
+            }
+          ],
+          "answer": "A",
+          "explanation": "'Mental hooks' là các mối liên hệ trong trí nhớ giúp sau này tìm lại thông tin, được tạo ra nhờ việc dừng lại dự đoán và liên hệ."
+        },
+        {
+          "id": "r2-p4-q5",
+          "number": 35,
+          "question": "Why does the author say highlighting everything is a problem?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It makes the book difficult to sell."
+            },
+            {
+              "id": "B",
+              "text": "It avoids the decision about what actually matters."
+            },
+            {
+              "id": "C",
+              "text": "It slows down reading too much."
+            },
+            {
+              "id": "D",
+              "text": "It damages the paper."
+            }
+          ],
+          "answer": "B",
+          "explanation": "Đoạn 4 giải thích tô sáng mọi thứ là cách né việc quyết định điều gì thực sự quan trọng, nên chỉ nên đánh dấu vài câu then chốt."
+        },
+        {
+          "id": "r2-p4-q6",
+          "number": 36,
+          "question": "Which technique is recommended before starting a chapter?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Memorising the final paragraph"
+            },
+            {
+              "id": "B",
+              "text": "Reading the chapter twice quickly"
+            },
+            {
+              "id": "C",
+              "text": "Copying the whole chapter by hand"
+            },
+            {
+              "id": "D",
+              "text": "Reading the headings and the first and last paragraphs"
+            }
+          ],
+          "answer": "D",
+          "explanation": "Đoạn 4 nêu kỹ thuật xem trước: đọc tiêu đề và đoạn đầu, đoạn cuối trước khi bắt đầu đọc kỹ."
+        },
+        {
+          "id": "r2-p4-q7",
+          "number": 37,
+          "question": "The word \"They\" in paragraph 4 refers to",
+          "options": [
+            {
+              "id": "A",
+              "text": "practical readers"
+            },
+            {
+              "id": "B",
+              "text": "headings"
+            },
+            {
+              "id": "C",
+              "text": "key sentences"
+            },
+            {
+              "id": "D",
+              "text": "authors"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Đoạn 4 mở đầu bằng 'Practical readers use several simple techniques', sau đó 'They preview...', 'They turn...' — 'They' là những người đọc thực hành này."
+        },
+        {
+          "id": "r2-p4-q8",
+          "number": 38,
+          "question": "What does the author say about the effect of memory techniques on first reading?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They make it faster and more enjoyable."
+            },
+            {
+              "id": "B",
+              "text": "They make no difference at all."
+            },
+            {
+              "id": "C",
+              "text": "They only work for academic texts."
+            },
+            {
+              "id": "D",
+              "text": "They make it slower and less pleasant."
+            }
+          ],
+          "answer": "D",
+          "explanation": "Đoạn 5 khẳng định thẳng: các kỹ thuật cải thiện trí nhớ thường làm lần đọc đầu chậm hơn và kém thú vị hơn, và đó chính là sự đánh đổi cần thiết."
+        },
+        {
+          "id": "r2-p4-q9",
+          "number": 39,
+          "question": "What can be inferred from the last sentence?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The number of pages read matters most."
+            },
+            {
+              "id": "B",
+              "text": "Reading less but retaining more is worthwhile."
+            },
+            {
+              "id": "C",
+              "text": "Books should be read only once."
+            },
+            {
+              "id": "D",
+              "text": "Summarising is a waste of time."
+            }
+          ],
+          "answer": "B",
+          "explanation": "Câu cuối nói mục tiêu không phải đọc nhiều trang mà là để những trang đã đọc 'leave something behind', tức đọc ít hơn nhưng nhớ được nhiều hơn là đáng giá."
+        },
+        {
+          "id": "r2-p4-q10",
+          "number": 40,
+          "question": "What is the author's main purpose in this passage?",
+          "options": [
+            {
+              "id": "A",
+              "text": "To explain why passive reading fails and suggest active techniques"
+            },
+            {
+              "id": "B",
+              "text": "To argue that reading is less useful than listening"
+            },
+            {
+              "id": "C",
+              "text": "To describe the history of reading research"
+            },
+            {
+              "id": "D",
+              "text": "To advertise a speed-reading course"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Bài viết giải thích nguyên nhân đọc thụ động không hiệu quả (quen mặt ≠ nhớ) và đưa ra các kỹ thuật đọc chủ động cụ thể."
+        }
+      ]
+    }
+  ]
+}

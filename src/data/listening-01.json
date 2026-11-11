@@ -1,0 +1,490 @@
+{
+  "id": "listening-01",
+  "skill": "listening",
+  "title": "Đề Listening 01 – Đời sống hằng ngày",
+  "durationMinutes": 40,
+  "parts": [
+    {
+      "id": "l1-p1",
+      "partNumber": 1,
+      "title": "Part 1 – Thông báo ngắn",
+      "audioUrl": "/audio/listening-part-1.mp3",
+      "transcript": "[Announcement 1]\nGood morning, passengers. This is a gate change announcement for Flight VN 218 to Da Nang. The flight was originally scheduled to depart from Gate 12, but because of maintenance work in that area, boarding will now take place at Gate 17. Please note that Gate 17 is at the end of the terminal, next to the coffee shop. Boarding will begin at 10:15, fifteen minutes later than the original time. Passengers travelling with small children may board first. We apologise for the inconvenience.\n\n[Voicemail 2]\nHello, this is Riverside Dental Clinic calling for Mr. Daniel Fox. I'm calling to confirm a change to your appointment. Your check-up was booked for Thursday at 3 p.m., but Dr. Nguyen has an emergency procedure that afternoon, so we've moved you to Friday at 9:30 a.m. Please arrive ten minutes early to fill in a short health form. If Friday doesn't suit you, call us back before 6 p.m. today and we'll find another slot. Thank you.\n\n[Announcement 3]\nAttention passengers on the 8:40 service to Hue. We regret to inform you that this train will depart approximately twenty-five minutes late. The delay is caused by a signal failure near Lang Co station, and engineers are currently working to repair it. The train will now leave from Platform 3 instead of Platform 1. We expect boarding to start at around 9:05. Passengers with connecting tickets should speak to a member of staff at the information desk.\n\n[Announcement 4]\nThank you for visiting the City History Museum. Please be aware that the museum will close early today at 4 p.m. instead of the usual 6 p.m., because a private event is being held in the main hall this evening. The last entry to the special exhibition on ancient coins will be at 3:15. Visitors who have already bought tickets for today may use them at any time within the next three months. The gift shop will remain open until 4:15 for last-minute purchases.\n\n[Voicemail 5]\nHi everyone, this is a quick message from the admin team. The quarterly planning meeting this afternoon has been moved from Room 204 to the large conference room on the fifth floor, because the projector in 204 is broken and IT can't fix it until next week. The meeting still starts at 2 p.m. and should finish by 4. Please bring your printed budget summaries, as we won't be able to print anything in the conference room. Coffee will be provided.\n\n[Announcement 6]\nGood afternoon, shoppers. For the next hour only, fresh salmon fillets are reduced by thirty percent in our seafood section, located at the back of the store beside the bakery. We also have a two-for-one offer on all breakfast cereals in aisle six. And don't forget that our loyalty card holders receive double points on fruit and vegetables every Wednesday. Thank you for shopping with us.\n\n[Voicemail 7]\nHi, this is FitLife Gym with a message for members who attend the Tuesday evening yoga class. Starting next week, the class will begin at 7 p.m. instead of 6:30, as our instructor, Maria, is now teaching a beginner's class beforehand. The class will still last one hour, and the room will open fifteen minutes before the start. If the new time is a problem, please ask at reception about swapping to the Thursday class.\n\n[Announcement 8]\nGood morning, library members. We're pleased to announce that award-winning author Helen Marsh will give a free talk in the reading room this Saturday at 11 a.m. She will discuss her new novel, The Long Winter, and answer questions from the audience. Because space is limited to fifty people, you need to reserve a seat at the front desk or by phone. Copies of her book will be available to buy and sign after the talk.",
+      "questions": [
+        {
+          "id": "l1-p1-q1",
+          "number": 1,
+          "question": "Where will passengers for Flight VN 218 board?",
+          "options": [
+            { "id": "A", "text": "Gate 12" },
+            { "id": "B", "text": "Gate 17" },
+            { "id": "C", "text": "Gate 15" },
+            { "id": "D", "text": "The coffee shop" }
+          ],
+          "answer": "B",
+          "explanation": "Thông báo nói chuyến bay ban đầu ở Gate 12 nhưng do bảo trì nên \"boarding will now take place at Gate 17\", tức cửa khởi hành mới là Gate 17."
+        },
+        {
+          "id": "l1-p1-q2",
+          "number": 2,
+          "question": "When is Mr. Fox's new appointment?",
+          "options": [
+            { "id": "A", "text": "Thursday at 3 p.m." },
+            { "id": "B", "text": "Thursday at 9:30 a.m." },
+            { "id": "C", "text": "Friday at 9:30 a.m." },
+            { "id": "D", "text": "Friday at 3 p.m." }
+          ],
+          "answer": "C",
+          "explanation": "Tin nhắn thoại cho biết lịch cũ là thứ Năm 3 giờ chiều, nhưng bác sĩ có ca cấp cứu nên đã dời sang \"Friday at 9:30 a.m.\"."
+        },
+        {
+          "id": "l1-p1-q3",
+          "number": 3,
+          "question": "What is the reason for the train delay?",
+          "options": [
+            { "id": "A", "text": "A signal failure" },
+            { "id": "B", "text": "Bad weather" },
+            { "id": "C", "text": "A shortage of staff" },
+            { "id": "D", "text": "Maintenance work on the platform" }
+          ],
+          "answer": "A",
+          "explanation": "Thông báo nêu rõ \"The delay is caused by a signal failure near Lang Co station\", nên nguyên nhân là sự cố tín hiệu."
+        },
+        {
+          "id": "l1-p1-q4",
+          "number": 4,
+          "question": "Why will the museum close early today?",
+          "options": [
+            { "id": "A", "text": "It is being renovated" },
+            { "id": "B", "text": "It is a public holiday" },
+            { "id": "C", "text": "There are not enough guards" },
+            { "id": "D", "text": "A private event is taking place" }
+          ],
+          "answer": "D",
+          "explanation": "Bảo tàng đóng cửa sớm \"because a private event is being held in the main hall this evening\", tức do có sự kiện riêng."
+        },
+        {
+          "id": "l1-p1-q5",
+          "number": 5,
+          "question": "Where will the planning meeting take place?",
+          "options": [
+            { "id": "A", "text": "Room 204" },
+            { "id": "B", "text": "The conference room on the fifth floor" },
+            { "id": "C", "text": "The IT office" },
+            { "id": "D", "text": "The cafeteria" }
+          ],
+          "answer": "B",
+          "explanation": "Cuộc họp được chuyển \"from Room 204 to the large conference room on the fifth floor\" vì máy chiếu ở phòng 204 bị hỏng."
+        },
+        {
+          "id": "l1-p1-q6",
+          "number": 6,
+          "question": "Which product is reduced by thirty percent?",
+          "options": [
+            { "id": "A", "text": "Breakfast cereals" },
+            { "id": "B", "text": "Fruit and vegetables" },
+            { "id": "C", "text": "Salmon fillets" },
+            { "id": "D", "text": "Bread from the bakery" }
+          ],
+          "answer": "C",
+          "explanation": "Thông báo nói \"fresh salmon fillets are reduced by thirty percent\", còn ngũ cốc chỉ là khuyến mãi mua hai tặng một."
+        },
+        {
+          "id": "l1-p1-q7",
+          "number": 7,
+          "question": "What time will the Tuesday yoga class start next week?",
+          "options": [
+            { "id": "A", "text": "7 p.m." },
+            { "id": "B", "text": "6:30 p.m." },
+            { "id": "C", "text": "6 p.m." },
+            { "id": "D", "text": "7:30 p.m." }
+          ],
+          "answer": "A",
+          "explanation": "Tin nhắn cho biết từ tuần sau lớp học \"will begin at 7 p.m. instead of 6:30\", nên giờ mới là 7 giờ tối."
+        },
+        {
+          "id": "l1-p1-q8",
+          "number": 8,
+          "question": "What must people do to attend the author's talk?",
+          "options": [
+            { "id": "A", "text": "Buy a ticket" },
+            { "id": "B", "text": "Bring their own copy of the book" },
+            { "id": "C", "text": "Arrive before 11 a.m." },
+            { "id": "D", "text": "Reserve a seat" }
+          ],
+          "answer": "D",
+          "explanation": "Buổi nói chuyện miễn phí nhưng \"space is limited to fifty people\" nên người nghe cần \"reserve a seat at the front desk or by phone\"."
+        }
+      ]
+    },
+    {
+      "id": "l1-p2",
+      "partNumber": 2,
+      "title": "Part 2 – Hội thoại",
+      "audioUrl": "/audio/listening-part-2.mp3",
+      "transcript": "[Conversation 1]\nSpeaker A: Excuse me, could you help me? I'm doing a research project on the effects of social media on teenagers, and I'm not really sure where to start.\nSpeaker B: Of course. Are you looking for books, journal articles, or something else?\nSpeaker A: Mostly journal articles. My tutor said newspapers are fine too, but she wants at least six academic sources.\nSpeaker B: Right. The easiest way is to use the library database. If you log in with your student number, you can search all the journals we subscribe to at once. You can also filter results by publication year, which is useful because your tutor probably wants recent studies.\nSpeaker A: She does — nothing older than five years. But when I tried searching last night, I got more than two thousand results. I didn't know what to do with them.\nSpeaker B: That's normal. Try adding more specific words, like sleep or self-esteem, instead of just social media. And use the peer-reviewed filter. That will cut the number down a lot.\nSpeaker A: Okay. And can I access the database from home?\nSpeaker B: Yes, as long as you're signed in. The link is on the library homepage. If you have any trouble, our online chat is open until 9 p.m.\nSpeaker A: Great. One more thing — is there somewhere I can print the articles? My laptop's broken.\nSpeaker B: The printers on the second floor take student cards. Printing costs five cents a page. Oh, and I'd recommend booking a study room if you're going to read for a long time; they fill up quickly in the afternoon.\nSpeaker A: I'll do that. Thanks so much for your help.\n\n[Conversation 2]\nSpeaker A: So, have you thought about where we should go this weekend? I've got Friday off, so we could leave on Thursday evening.\nSpeaker B: I have, actually. I found a guesthouse in a little town called Nam Hong. It's about four hours by bus, and the rooms are only twenty dollars a night.\nSpeaker A: That sounds cheap. But four hours each way is a lot for two days. What is there to do?\nSpeaker B: There's a lake, a night market on Saturday, and apparently some really good hiking trails. The photos of the rice fields looked amazing.\nSpeaker A: I'm not sure about hiking. My knee's been bothering me since I started running again. Is there anything flatter?\nSpeaker B: Well, there's a cycling route around the lake — it's completely flat and only about ten kilometres.\nSpeaker A: That I can do. Should we book the guesthouse now? The cheap rooms might go.\nSpeaker B: I'd rather wait until tomorrow. I want to check the weather first. If it's going to rain all weekend, I'd prefer to go somewhere with museums.\nSpeaker A: Fair enough. Can you check tonight and text me? I'll look at bus times in the meantime.\nSpeaker B: Sure. And I'll ask my cousin — she went there last year and said the night market was the best part.\n\n[Conversation 3]\nSpeaker A: Mr. Reyes, do you have a minute? It's about the customer-service training course next month.\nSpeaker B: Sure, come in. Are you still planning to attend?\nSpeaker A: That's the thing. The course runs from Monday to Wednesday, and I'm supposed to be on the front desk those days. I've already asked Linh to cover Tuesday, but she can't do Monday or Wednesday because of her own training.\nSpeaker B: I see. Well, the course is important — we've had a lot of complaints about how we handle refunds, and you're the person who deals with the most difficult cases. Have you thought about doing the online version instead?\nSpeaker A: I didn't know there was one. Is it the same content?\nSpeaker B: Almost. It's the same material, but you do it over five half-days rather than three full days, and there's no role-play practice with an instructor. The certificate is identical, though.\nSpeaker A: Honestly, the role-play was the part I was most interested in. I find it hard to stay focused in front of a screen for that long.\nSpeaker B: Then let's do this: I'll ask HR whether we can send Linh on the Tuesday session of her training in a different week. If they agree, you can go to the full course and she can cover the desk.\nSpeaker A: That would be ideal. Should I email HR myself?\nSpeaker B: No, leave it with me. I'll speak to them this afternoon and let you know by Friday. In the meantime, could you write a short note about the three refund cases we discussed last week? The trainer asked for real examples.\nSpeaker A: Of course. I'll have it on your desk tomorrow morning.",
+      "questions": [
+        {
+          "id": "l1-p2-q1",
+          "number": 9,
+          "question": "What is the student's main purpose in speaking to the librarian?",
+          "options": [
+            { "id": "A", "text": "To get help finding sources for a research project" },
+            { "id": "B", "text": "To borrow a laptop" },
+            { "id": "C", "text": "To book a study room for a group" },
+            { "id": "D", "text": "To pay a library fine" }
+          ],
+          "answer": "A",
+          "explanation": "Ngay đầu hội thoại, sinh viên nói đang làm \"a research project on the effects of social media on teenagers\" và \"not really sure where to start\", nên mục đích chính là tìm nguồn tài liệu."
+        },
+        {
+          "id": "l1-p2-q2",
+          "number": 10,
+          "question": "What does the librarian suggest the student do to reduce the number of search results?",
+          "options": [
+            { "id": "A", "text": "Search only newspapers" },
+            { "id": "B", "text": "Add more specific keywords and use the peer-reviewed filter" },
+            { "id": "C", "text": "Ask the tutor for a list of sources" },
+            { "id": "D", "text": "Limit the search to books" }
+          ],
+          "answer": "B",
+          "explanation": "Thủ thư khuyên \"Try adding more specific words, like sleep or self-esteem\" và \"use the peer-reviewed filter\" để giảm số kết quả."
+        },
+        {
+          "id": "l1-p2-q3",
+          "number": 11,
+          "question": "What can be inferred about the student's previous search?",
+          "options": [
+            { "id": "A", "text": "It was done without signing in" },
+            { "id": "B", "text": "It used the wrong database" },
+            { "id": "C", "text": "It returned too many results to manage" },
+            { "id": "D", "text": "It found no relevant articles" }
+          ],
+          "answer": "C",
+          "explanation": "Sinh viên kể lần tìm trước \"got more than two thousand results\" và \"didn't know what to do with them\", ngụ ý kết quả quá nhiều để xử lý."
+        },
+        {
+          "id": "l1-p2-q4",
+          "number": 12,
+          "question": "What will the student probably do next?",
+          "options": [
+            { "id": "A", "text": "Buy a new laptop" },
+            { "id": "B", "text": "Ask the tutor for help" },
+            { "id": "C", "text": "Print articles at home" },
+            { "id": "D", "text": "Book a study room" }
+          ],
+          "answer": "D",
+          "explanation": "Thủ thư gợi ý đặt phòng học và sinh viên đáp \"I'll do that\", nên hành động tiếp theo nhiều khả năng là đặt phòng học."
+        },
+        {
+          "id": "l1-p2-q5",
+          "number": 13,
+          "question": "What are the speakers mainly discussing?",
+          "options": [
+            { "id": "A", "text": "A cycling race" },
+            { "id": "B", "text": "Plans for a weekend trip" },
+            { "id": "C", "text": "A problem with a bus company" },
+            { "id": "D", "text": "Where to go running" }
+          ],
+          "answer": "B",
+          "explanation": "Hai người bàn về điểm đến, nhà nghỉ, hoạt động và thời tiết cho chuyến đi cuối tuần, mở đầu bằng \"where we should go this weekend\"."
+        },
+        {
+          "id": "l1-p2-q6",
+          "number": 14,
+          "question": "What does Speaker B say about the guesthouse?",
+          "options": [
+            { "id": "A", "text": "It is far from the lake" },
+            { "id": "B", "text": "It has no rooms left" },
+            { "id": "C", "text": "It costs twenty dollars a night" },
+            { "id": "D", "text": "It was recommended by her cousin" }
+          ],
+          "answer": "C",
+          "explanation": "Speaker B nói \"the rooms are only twenty dollars a night\", tức giá phòng là 20 đô một đêm."
+        },
+        {
+          "id": "l1-p2-q7",
+          "number": 15,
+          "question": "What is Speaker A's opinion about hiking?",
+          "options": [
+            { "id": "A", "text": "She would prefer a less demanding activity" },
+            { "id": "B", "text": "She thinks it is the best part of the trip" },
+            { "id": "C", "text": "She has never tried it before" },
+            { "id": "D", "text": "She wants to hike every morning" }
+          ],
+          "answer": "A",
+          "explanation": "Speaker A nói \"I'm not sure about hiking\" vì đầu gối đau và hỏi \"Is there anything flatter?\", cho thấy cô muốn hoạt động nhẹ hơn."
+        },
+        {
+          "id": "l1-p2-q8",
+          "number": 16,
+          "question": "What will Speaker A do next?",
+          "options": [
+            { "id": "A", "text": "Book the guesthouse immediately" },
+            { "id": "B", "text": "Buy bus tickets" },
+            { "id": "C", "text": "Call her cousin to cancel" },
+            { "id": "D", "text": "Check the weather forecast" }
+          ],
+          "answer": "D",
+          "explanation": "Speaker B nhờ \"Can you check tonight and text me?\" và Speaker A đồng ý, nên việc tiếp theo là kiểm tra dự báo thời tiết."
+        },
+        {
+          "id": "l1-p2-q9",
+          "number": 17,
+          "question": "What is the employee's main concern?",
+          "options": [
+            { "id": "A", "text": "The course is too expensive" },
+            { "id": "B", "text": "The course content is out of date" },
+            { "id": "C", "text": "She cannot attend the course because of work commitments" },
+            { "id": "D", "text": "She has already taken the course" }
+          ],
+          "answer": "C",
+          "explanation": "Nhân viên nói khóa học diễn ra thứ Hai đến thứ Tư nhưng cô phải trực quầy và Linh không thể trực thay, nên vướng lịch làm việc."
+        },
+        {
+          "id": "l1-p2-q10",
+          "number": 18,
+          "question": "How does the online version differ from the classroom course?",
+          "options": [
+            { "id": "A", "text": "It is spread over five half-days and has no role-play practice" },
+            { "id": "B", "text": "It gives a different certificate" },
+            { "id": "C", "text": "It costs more" },
+            { "id": "D", "text": "It lasts three full days" }
+          ],
+          "answer": "A",
+          "explanation": "Quản lý nói bản online học \"over five half-days rather than three full days\" và \"there's no role-play practice with an instructor\", còn chứng chỉ thì giống nhau."
+        },
+        {
+          "id": "l1-p2-q11",
+          "number": 19,
+          "question": "What can be inferred about the employee's attitude to online learning?",
+          "options": [
+            { "id": "A", "text": "She prefers it to classroom training" },
+            { "id": "B", "text": "She thinks it is too expensive" },
+            { "id": "C", "text": "She has done it before" },
+            { "id": "D", "text": "She doubts she can concentrate during long screen sessions" }
+          ],
+          "answer": "D",
+          "explanation": "Cô nói \"I find it hard to stay focused in front of a screen for that long\", ngụ ý lo ngại việc học online dài sẽ khó tập trung."
+        },
+        {
+          "id": "l1-p2-q12",
+          "number": 20,
+          "question": "What will the manager do next?",
+          "options": [
+            { "id": "A", "text": "Write a note about the refund cases" },
+            { "id": "B", "text": "Contact HR about changing Linh's training" },
+            { "id": "C", "text": "Ask the employee to email HR" },
+            { "id": "D", "text": "Cancel the course" }
+          ],
+          "answer": "B",
+          "explanation": "Quản lý nói \"I'll speak to them this afternoon\" về việc hỏi HR đổi lịch tập huấn của Linh, còn việc viết ghi chú là do nhân viên làm."
+        }
+      ]
+    },
+    {
+      "id": "l1-p3",
+      "partNumber": 3,
+      "title": "Part 3 – Bài nói và bài giảng",
+      "audioUrl": "/audio/listening-part-3.mp3",
+      "transcript": "[Talk 1]\nGood evening, and thank you for coming to tonight's community meeting. I'm going to talk about something that has changed a lot in our city over the past five years: urban gardening. When people hear the phrase, they often picture a few pots of herbs on a balcony. But urban gardening today includes rooftop farms, school vegetable plots, and shared gardens on unused land between apartment buildings.\n\nWhy does this matter? First, food. A well-managed rooftop farm can supply a family with fresh vegetables for most of the year, and it reduces the amount of money they spend at the supermarket. Second, heat. Cities are often several degrees warmer than the countryside because concrete stores heat during the day. Plants cool the air around them, and studies in our city found that a green roof can lower the temperature of the building below it by up to three degrees.\n\nThird, and perhaps most importantly, community. In our survey of forty shared gardens, more than half of the members said they had made new friends through gardening. Some said they now know their neighbours' names for the first time in years.\n\nOf course, there are challenges. Not every roof is strong enough, water can be difficult to bring up to higher floors, and many people simply don't have the time. That's why our programme offers free training on Saturday mornings and a small fund to help groups buy tools and soil.\n\nIf you're interested, the first step is simple: come to one of our open days. You don't need any experience, and you don't need your own land. Just bring a pair of gloves and some curiosity.\n\n[Talk 2]\nToday's lecture is about the relationship between sleep and learning, and I want to start by correcting a common belief. Many students think that staying up late before an exam is a sensible trade: you lose a few hours of sleep, but you gain a few hours of study. Research suggests the opposite.\n\nWhen you learn something new, the information is first stored in a temporary form. During sleep — especially during deep sleep in the first half of the night — the brain replays those patterns and moves them into longer-term storage. If you cut that sleep short, the material is much more likely to be forgotten, even if you studied it for hours.\n\nIn one well-known experiment, two groups of students learned a list of words. One group slept normally; the other stayed awake all night. Two days later, the sleep group remembered about forty percent more words. Interestingly, the students who stayed awake were confident that they remembered more than they actually did — a reminder that feeling prepared is not the same as being prepared.\n\nThere's a second point. Sleep also affects your ability to notice patterns. In another study, participants who had slept were nearly three times more likely to discover a hidden rule in a number puzzle than those who had not. So sleep doesn't only protect what you have learned; it helps you use it in new situations.\n\nWhat does this mean for your revision? Three things. First, spread your study over several days rather than doing it all in one night. Second, review difficult material in the early evening, so that it is fresh before sleep. And third, keep a regular bedtime — going to bed at two in the morning and waking at noon gives you the same number of hours, but the quality of your sleep is worse.\n\nNext week we'll look at the effect of caffeine, and I'll post the reading list tonight.\n\n[Talk 3]\nWelcome back to The Green Hour. This week we're talking about clothes — specifically, why so many of them end up in the bin, and what you can do about it.\n\nThe average person in Europe now buys about sixty percent more clothing than they did twenty years ago, and keeps each item for about half as long. A shirt that costs the equivalent of two cups of coffee is cheap for the buyer, but the real cost is paid elsewhere: in water, in energy, and in the wages of the people who make it. It takes around two thousand seven hundred litres of water to produce a single cotton T-shirt. That's enough drinking water for one person for two and a half years.\n\nSo what can one listener do? More than you might think. Our guest today, tailor Amara Diallo, runs free repair workshops in her shop every second Saturday. She told us that the most common repairs are simple: replacing a button, fixing a zip, or closing a seam that has come apart. Most people throw away a jacket because of one broken zip, she said. Ten minutes with a needle and it's a jacket again.\n\nAmara also had advice for buying. She suggested avoiding very thin fabrics, checking whether the seams are stitched or only glued, and — her strongest point — waiting a week before buying something you saw online. Half of my customers tell me they bought things they never wore, she said. A week gives you time to decide whether you actually want it.\n\nIf you'd like to learn basic repairs, Amara's next workshop is on the fourteenth, and it's free. You just need to bring one item that needs fixing. Details are on our website, and we'll be back after the news.",
+      "questions": [
+        {
+          "id": "l1-p3-q1",
+          "number": 21,
+          "question": "What is the main topic of the talk?",
+          "options": [
+            { "id": "A", "text": "How to reduce supermarket prices" },
+            { "id": "B", "text": "The history of city buildings" },
+            { "id": "C", "text": "The benefits and challenges of urban gardening" },
+            { "id": "D", "text": "A training programme for professional farmers" }
+          ],
+          "answer": "C",
+          "explanation": "Người nói giới thiệu chủ đề \"urban gardening\", sau đó lần lượt nêu lợi ích (thực phẩm, nhiệt độ, cộng đồng) và khó khăn, nên đáp án bao quát là lợi ích và thách thức."
+        },
+        {
+          "id": "l1-p3-q2",
+          "number": 22,
+          "question": "According to the speaker, what can a green roof do for the building below it?",
+          "options": [
+            { "id": "A", "text": "Lower its temperature by up to three degrees" },
+            { "id": "B", "text": "Increase the amount of water it collects" },
+            { "id": "C", "text": "Reduce its electricity cost by half" },
+            { "id": "D", "text": "Protect it from heavy rain" }
+          ],
+          "answer": "A",
+          "explanation": "Diễn giả dẫn nghiên cứu: \"a green roof can lower the temperature of the building below it by up to three degrees\"."
+        },
+        {
+          "id": "l1-p3-q3",
+          "number": 23,
+          "question": "What did the survey of shared gardens find?",
+          "options": [
+            { "id": "A", "text": "Most members grew herbs only on balconies" },
+            { "id": "B", "text": "Gardening increased members' income" },
+            { "id": "C", "text": "The gardens were too small to be useful" },
+            { "id": "D", "text": "Over half of the members made new friends" }
+          ],
+          "answer": "D",
+          "explanation": "Khảo sát 40 khu vườn chung cho thấy \"more than half of the members said they had made new friends through gardening\"."
+        },
+        {
+          "id": "l1-p3-q4",
+          "number": 24,
+          "question": "What can be inferred about starting urban gardening?",
+          "options": [
+            { "id": "A", "text": "It requires a large amount of money" },
+            { "id": "B", "text": "It is possible without owning land" },
+            { "id": "C", "text": "It is only for experienced gardeners" },
+            { "id": "D", "text": "It is limited to rooftop farms" }
+          ],
+          "answer": "B",
+          "explanation": "Diễn giả nói \"You don't need any experience, and you don't need your own land\", ngụ ý ai cũng có thể bắt đầu dù không có đất riêng."
+        },
+        {
+          "id": "l1-p3-q5",
+          "number": 25,
+          "question": "Why does the speaker mention the free training and small fund?",
+          "options": [
+            { "id": "A", "text": "To advertise a shop that sells tools" },
+            { "id": "B", "text": "To warn listeners about the cost" },
+            { "id": "C", "text": "To show that the programme supports beginners" },
+            { "id": "D", "text": "To explain why the survey failed" }
+          ],
+          "answer": "C",
+          "explanation": "Sau khi nêu khó khăn về thời gian và chi phí, diễn giả cho biết chương trình có \"free training on Saturday mornings and a small fund\", nhằm hỗ trợ người mới."
+        },
+        {
+          "id": "l1-p3-q6",
+          "number": 26,
+          "question": "What is the main purpose of the lecture?",
+          "options": [
+            { "id": "A", "text": "To explain how sleep supports learning and give revision advice" },
+            { "id": "B", "text": "To argue that students should sleep less before exams" },
+            { "id": "C", "text": "To compare two kinds of memory tests" },
+            { "id": "D", "text": "To describe the effects of caffeine" }
+          ],
+          "answer": "A",
+          "explanation": "Giảng viên giải thích mối liên hệ giữa giấc ngủ và học tập rồi đưa ra ba lời khuyên ôn thi, nên mục đích chính là giải thích và hướng dẫn."
+        },
+        {
+          "id": "l1-p3-q7",
+          "number": 27,
+          "question": "According to the lecturer, what happens during deep sleep?",
+          "options": [
+            { "id": "A", "text": "The brain forgets unimportant details" },
+            { "id": "B", "text": "Learned information is moved into longer-term storage" },
+            { "id": "C", "text": "The brain creates new word lists" },
+            { "id": "D", "text": "Students become more confident" }
+          ],
+          "answer": "B",
+          "explanation": "Giảng viên nói trong giấc ngủ sâu \"the brain replays those patterns and moves them into longer-term storage\"."
+        },
+        {
+          "id": "l1-p3-q8",
+          "number": 28,
+          "question": "In the word-list experiment, what did the sleep group do two days later?",
+          "options": [
+            { "id": "A", "text": "Discover a hidden rule" },
+            { "id": "B", "text": "Remember the same number of words" },
+            { "id": "C", "text": "Sleep for two days" },
+            { "id": "D", "text": "Remember about forty percent more words than the other group" }
+          ],
+          "answer": "D",
+          "explanation": "Thí nghiệm cho thấy \"the sleep group remembered about forty percent more words\" so với nhóm thức trắng."
+        },
+        {
+          "id": "l1-p3-q9",
+          "number": 29,
+          "question": "What can be inferred about the students who stayed awake all night?",
+          "options": [
+            { "id": "A", "text": "They remembered more than they thought" },
+            { "id": "B", "text": "They discovered the hidden rule" },
+            { "id": "C", "text": "They were overconfident about their memory" },
+            { "id": "D", "text": "They slept better the following night" }
+          ],
+          "answer": "C",
+          "explanation": "Nhóm thức trắng \"were confident that they remembered more than they actually did\", tức họ tự tin quá mức về trí nhớ của mình."
+        },
+        {
+          "id": "l1-p3-q10",
+          "number": 30,
+          "question": "Which piece of revision advice does the lecturer give?",
+          "options": [
+            { "id": "A", "text": "Review difficult material in the early evening" },
+            { "id": "B", "text": "Study everything in one night" },
+            { "id": "C", "text": "Go to bed at two in the morning" },
+            { "id": "D", "text": "Avoid reviewing before sleep" }
+          ],
+          "answer": "A",
+          "explanation": "Lời khuyên thứ hai là \"review difficult material in the early evening, so that it is fresh before sleep\", các lựa chọn còn lại đều trái với bài giảng."
+        },
+        {
+          "id": "l1-p3-q11",
+          "number": 31,
+          "question": "What is the radio segment mainly about?",
+          "options": [
+            { "id": "A", "text": "The history of cotton production" },
+            { "id": "B", "text": "The problems of fast fashion and how to repair clothes" },
+            { "id": "C", "text": "How to start a tailoring business" },
+            { "id": "D", "text": "The price of coffee" }
+          ],
+          "answer": "B",
+          "explanation": "Người dẫn nói tập này bàn về \"why so many of them end up in the bin, and what you can do about it\", tức vấn đề thời trang nhanh và cách sửa quần áo."
+        },
+        {
+          "id": "l1-p3-q12",
+          "number": 32,
+          "question": "According to the segment, how much water is needed to produce one cotton T-shirt?",
+          "options": [
+            { "id": "A", "text": "About 270 litres" },
+            { "id": "B", "text": "About 27,000 litres" },
+            { "id": "C", "text": "About two litres" },
+            { "id": "D", "text": "About 2,700 litres" }
+          ],
+          "answer": "D",
+          "explanation": "Đoạn phát thanh nêu \"around two thousand seven hundred litres of water to produce a single cotton T-shirt\"."
+        },
+        {
+          "id": "l1-p3-q13",
+          "number": 33,
+          "question": "What does Amara say is the most common reason people throw away a jacket?",
+          "options": [
+            { "id": "A", "text": "A broken zip" },
+            { "id": "B", "text": "A missing button" },
+            { "id": "C", "text": "A torn seam" },
+            { "id": "D", "text": "The colour fading" }
+          ],
+          "answer": "A",
+          "explanation": "Amara nói \"Most people throw away a jacket because of one broken zip\", nên lý do phổ biến nhất là khóa kéo hỏng."
+        },
+        {
+          "id": "l1-p3-q14",
+          "number": 34,
+          "question": "What can be inferred about Amara's customers?",
+          "options": [
+            { "id": "A", "text": "They never buy clothes online" },
+            { "id": "B", "text": "They all attend her workshops" },
+            { "id": "C", "text": "Some buy clothes they do not wear" },
+            { "id": "D", "text": "They prefer very thin fabrics" }
+          ],
+          "answer": "C",
+          "explanation": "Amara kể \"Half of my customers tell me they bought things they never wore\", ngụ ý nhiều người mua đồ nhưng không mặc."
+        },
+        {
+          "id": "l1-p3-q15",
+          "number": 35,
+          "question": "What is the purpose of mentioning the workshop on the fourteenth?",
+          "options": [
+            { "id": "A", "text": "To advertise a new clothing shop" },
+            { "id": "B", "text": "To invite listeners to a free repair workshop" },
+            { "id": "C", "text": "To warn listeners about the news" },
+            { "id": "D", "text": "To announce a change in the programme" }
+          ],
+          "answer": "B",
+          "explanation": "Người dẫn nói buổi workshop ngày 14 \"is free\" và chỉ cần mang một món đồ cần sửa, nhằm mời thính giả tham dự."
+        }
+      ]
+    }
+  ]
+}
