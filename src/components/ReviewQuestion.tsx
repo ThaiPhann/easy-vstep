@@ -29,16 +29,16 @@ export function ReviewQuestion({
           </h3>
           <div className="mt-1.5 flex flex-wrap gap-1.5 text-xs">
             {isCorrect ? (
-              <span className="inline-flex items-center gap-1 rounded-full bg-emerald-100 px-2 py-0.5 font-semibold text-emerald-800 dark:bg-emerald-950/70 dark:text-emerald-300">
+              <span className="inline-flex items-center gap-1 border border-emerald-300 bg-emerald-50 px-2 py-0.5 font-mono text-[10px] font-semibold uppercase tracking-[0.1em] text-emerald-800 dark:border-emerald-800 dark:bg-emerald-950/70 dark:text-emerald-300">
                 <CheckIcon className="size-3" />
                 Trả lời đúng
               </span>
             ) : isUnanswered ? (
-              <span className="rounded-full bg-slate-100 px-2 py-0.5 font-semibold text-slate-600 dark:bg-slate-800 dark:text-slate-300">
+              <span className="border border-slate-300 bg-slate-50 px-2 py-0.5 font-mono text-[10px] font-semibold uppercase tracking-[0.1em] text-slate-600 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-300">
                 Chưa trả lời
               </span>
             ) : (
-              <span className="inline-flex items-center gap-1 rounded-full bg-rose-100 px-2 py-0.5 font-semibold text-rose-800 dark:bg-rose-950/70 dark:text-rose-300">
+              <span className="inline-flex items-center gap-1 border border-rose-300 bg-rose-50 px-2 py-0.5 font-mono text-[10px] font-semibold uppercase tracking-[0.1em] text-rose-800 dark:border-rose-800 dark:bg-rose-950/70 dark:text-rose-300">
                 <XIcon className="size-3" />
                 Trả lời sai
               </span>

@@ -6,6 +6,10 @@ export function ScrollToTop() {
 
   useEffect(() => {
     window.scrollTo(0, 0)
+    // Chuyển trang trong SPA: đưa focus về đầu nội dung để screen reader đọc từ đầu.
+    const main =
+      document.getElementById('main-content') ?? document.querySelector('main')
+    main?.focus()
   }, [pathname])
 
   return null

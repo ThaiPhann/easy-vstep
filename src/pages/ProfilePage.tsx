@@ -15,7 +15,6 @@ import { SkillBadge } from '../components/SkillBadge'
 import {
   ArrowRightIcon,
   BookIcon,
-  ChartIcon,
   HeadphonesIcon,
   MicIcon,
   PenIcon,
@@ -194,14 +193,8 @@ export function ProfilePage() {
   return (
     <div className="space-y-6">
       <div>
-        <div className="flex items-center gap-2 text-sm font-semibold text-teal-700 dark:text-teal-300">
-          <ChartIcon className="size-4" />
-          Tiến độ của bạn
-        </div>
-        <h1 className="mt-2 text-2xl font-extrabold tracking-tight sm:text-3xl">
-          Trang cá nhân
-        </h1>
-        <p className="mt-2 text-sm leading-relaxed text-slate-600 dark:text-slate-400 sm:text-base">
+        <h1 className="text-3xl font-bold sm:text-4xl">Trang cá nhân</h1>
+        <p className="mt-2 max-w-2xl text-sm leading-relaxed text-slate-600 dark:text-slate-400 sm:text-base">
           Dữ liệu được lưu trên trình duyệt này. Xóa dữ liệu trình duyệt sẽ xóa
           lịch sử bài làm.
         </p>
@@ -235,14 +228,14 @@ export function ProfilePage() {
                 >
                   Tổng quan
                 </h2>
-                <p className="mt-2 text-3xl font-extrabold tracking-tight">
+                <p className="mt-2 flex items-baseline gap-2 font-mono text-3xl font-bold tabular-nums">
                   {attempts.length}
-                  <span className="ml-2 text-sm font-medium text-slate-500 dark:text-slate-400">
+                  <span className="font-sans text-sm font-medium text-slate-500 dark:text-slate-400">
                     bài đã làm
                   </span>
                 </p>
               </div>
-              <span className="rounded-full bg-teal-50 px-3 py-1 text-xs font-semibold text-teal-700 dark:bg-teal-950/60 dark:text-teal-300">
+              <span className="stamp text-teal-700 dark:text-teal-300">
                 Lưu trên thiết bị
               </span>
             </div>
@@ -294,63 +287,70 @@ export function ProfilePage() {
                 Thang 0–10
               </span>
             </div>
-            <div
-              role="img"
-              aria-label="Biểu đồ điểm Reading và Listening theo thời gian"
-              className="mt-4 h-64 w-full min-w-0 text-slate-500 dark:text-slate-400"
-            >
-              <ResponsiveContainer width="100%" height="100%">
-                <LineChart
-                  data={chartData}
-                  margin={{ top: 8, right: 8, bottom: 0, left: -18 }}
-                >
-                  <CartesianGrid
-                    stroke="#94a3b8"
-                    strokeOpacity={0.2}
-                    vertical={false}
-                  />
-                  <XAxis
-                    dataKey="label"
-                    tick={{ fontSize: 12, fill: 'currentColor' }}
-                    tickLine={false}
-                    axisLine={false}
-                    interval="preserveStartEnd"
-                  />
-                  <YAxis
-                    domain={[0, 10]}
-                    ticks={[0, 2, 4, 6, 8, 10]}
-                    tick={{ fontSize: 12, fill: 'currentColor' }}
-                    tickLine={false}
-                    axisLine={false}
-                    width={32}
-                  />
-                  <Tooltip content={<ChartTooltip />} />
-                  <Legend wrapperStyle={{ fontSize: 12 }} />
-                  {hasReading ? (
-                    <Line
-                      type="monotone"
-                      dataKey="reading"
-                      name="Reading"
-                      stroke="#0ea5e9"
-                      strokeWidth={2}
-                      dot={{ r: 3 }}
-                      connectNulls
+            {chartData.length < 2 ? (
+              <p className="mt-4 border-t border-slate-200 pt-4 text-sm leading-relaxed text-slate-600 dark:border-slate-800 dark:text-slate-300">
+                Cần thêm một bài nữa để thấy đường tiến bộ. Lần gần nhất:{' '}
+                {formatScore(attempts[0].score)} điểm.
+              </p>
+            ) : (
+              <div
+                role="img"
+                aria-label="Biểu đồ điểm Reading và Listening theo thời gian"
+                className="mt-4 h-64 w-full min-w-0 text-slate-500 dark:text-slate-400"
+              >
+                <ResponsiveContainer width="100%" height="100%">
+                  <LineChart
+                    data={chartData}
+                    margin={{ top: 8, right: 8, bottom: 0, left: -18 }}
+                  >
+                    <CartesianGrid
+                      stroke="currentColor"
+                      strokeOpacity={0.16}
+                      vertical={false}
                     />
-                  ) : null}
-                  {hasListening ? (
-                    <Line
-                      type="monotone"
-                      dataKey="listening"
-                      name="Listening"
-                      stroke="#8b5cf6"
-                      strokeWidth={2}
-                      dot={{ r: 3 }}
-                      connectNulls
+                    <XAxis
+                      dataKey="label"
+                      tick={{ fontSize: 12, fill: 'currentColor' }}
+                      tickLine={false}
+                      axisLine={false}
+                      interval="preserveStartEnd"
                     />
-                  ) : null}
-                </LineChart>
-              </ResponsiveContainer>
-            </div>
+                    <YAxis
+                      domain={[0, 10]}
+                      ticks={[0, 2, 4, 6, 8, 10]}
+                      tick={{ fontSize: 12, fill: 'currentColor' }}
+                      tickLine={false}
+                      axisLine={false}
+                      width={32}
+                    />
+                    <Tooltip content={<ChartTooltip />} />
+                    <Legend wrapperStyle={{ fontSize: 12 }} />
+                    {hasReading ? (
+                      <Line
+                        type="monotone"
+                        dataKey="reading"
+                        name="Reading"
+                        stroke="var(--pen-blue)"
+                        strokeWidth={2}
+                        dot={{ r: 3 }}
+                        connectNulls
+                      />
+                    ) : null}
+                    {hasListening ? (
+                      <Line
+                        type="monotone"
+                        dataKey="listening"
+                        name="Listening"
+                        stroke="var(--ink-soft)"
+                        strokeWidth={2}
+                        dot={{ r: 3 }}
+                        connectNulls
+                      />
+                    ) : null}
+                  </LineChart>
+                </ResponsiveContainer>
+              </div>
+            )}
           </section>
 
           <section aria-labelledby="history-heading">
@@ -394,7 +394,7 @@ export function ProfilePage() {
                         </p>
                       </div>
                       <div className="shrink-0 text-right">
-                        <p className="text-lg font-extrabold text-teal-700 dark:text-teal-300">
+                        <p className="font-mono text-lg font-bold tabular-nums text-teal-700 dark:text-teal-300">
                           {formatScore(attempt.score)}
                         </p>
                         <p className="text-xs text-slate-500 dark:text-slate-400">

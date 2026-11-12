@@ -29,6 +29,7 @@ export function formatDuration(totalSeconds: number): string {
   const minutes = Math.floor(seconds / 60)
   const rest = seconds % 60
   if (minutes === 0) return `${rest} giây`
+  if (rest === 0) return `${minutes} phút`
   return `${minutes} phút ${rest} giây`
 }
 

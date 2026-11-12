@@ -2,7 +2,129 @@
 
 @custom-variant dark (&:where(.dark, .dark *));
 
+/*
+ * Vở ôn thi: giấy trắng-xanh, mực bút bi, phê đỏ, một vệt highlight.
+ * Mọi thang màu cũ được ánh xạ sang bộ đồ dùng học tập này để các trang
+ * không phải viết lại từng lớp tiện ích.
+ */
+@theme {
+  --color-paper: #f3f6f9;
+  --color-ink: #16283b;
+
+  --color-slate-50: #f3f6f9;
+  --color-slate-100: #e8eef4;
+  --color-slate-200: #d4dfe9;
+  --color-slate-300: #b3c3d2;
+  --color-slate-400: #8399ac;
+  --color-slate-500: #62788c;
+  --color-slate-600: #4a6074;
+  --color-slate-700: #33495c;
+  --color-slate-800: #22364a;
+  --color-slate-900: #16283b;
+  --color-slate-950: #0d1a26;
+
+  --color-teal-50: #eef3fc;
+  --color-teal-100: #dce6f9;
+  --color-teal-200: #bccff2;
+  --color-teal-300: #93aee6;
+  --color-teal-400: #6b8cd6;
+  --color-teal-500: #4a6fc0;
+  --color-teal-600: #3559a8;
+  --color-teal-700: #23468f;
+  --color-teal-800: #1b3873;
+  --color-teal-900: #172c58;
+  --color-teal-950: #0f1d38;
+
+  --color-sky-50: #eef3fc;
+  --color-sky-100: #dce6f9;
+  --color-sky-200: #bccff2;
+  --color-sky-300: #93aee6;
+  --color-sky-400: #6b8cd6;
+  --color-sky-500: #4a6fc0;
+  --color-sky-600: #3559a8;
+  --color-sky-700: #23468f;
+  --color-sky-800: #1b3873;
+  --color-sky-900: #172c58;
+  --color-sky-950: #0f1d38;
+
+  --color-violet-50: #f4f6f7;
+  --color-violet-100: #e6eaec;
+  --color-violet-200: #cdd5d9;
+  --color-violet-300: #a9b5bb;
+  --color-violet-400: #7d8c94;
+  --color-violet-500: #61717a;
+  --color-violet-600: #4c5c65;
+  --color-violet-700: #3e4b53;
+  --color-violet-800: #333e45;
+  --color-violet-900: #2c363c;
+  --color-violet-950: #1a2125;
+
+  --color-rose-50: #fdf0ef;
+  --color-rose-100: #fadcda;
+  --color-rose-200: #f4b8b3;
+  --color-rose-300: #ea8b84;
+  --color-rose-400: #dc5c53;
+  --color-rose-500: #c93f36;
+  --color-rose-600: #ae2f27;
+  --color-rose-700: #8e2620;
+  --color-rose-800: #74211c;
+  --color-rose-900: #5c1d19;
+  --color-rose-950: #330f0d;
+
+  --color-amber-50: #fefbeb;
+  --color-amber-100: #fbf3c8;
+  --color-amber-200: #f5e58a;
+  --color-amber-300: #e8ce3f;
+  --color-amber-400: #d9b71a;
+  --color-amber-500: #bc9a0c;
+  --color-amber-600: #97790a;
+  --color-amber-700: #755d09;
+  --color-amber-800: #5d4a0c;
+  --color-amber-900: #4a3b0d;
+  --color-amber-950: #2a2106;
+
+  --color-emerald-50: #eff6f0;
+  --color-emerald-100: #dcebdd;
+  --color-emerald-200: #bad8bc;
+  --color-emerald-300: #8dbe91;
+  --color-emerald-400: #5e9e64;
+  --color-emerald-500: #3f8346;
+  --color-emerald-600: #2e6935;
+  --color-emerald-700: #26542c;
+  --color-emerald-800: #214426;
+  --color-emerald-900: #1c3821;
+  --color-emerald-950: #0e1f12;
+
+  --font-display: "Times New Roman", "Noto Serif", "Liberation Serif",
+    Georgia, serif;
+  --font-mono: ui-monospace, "Cascadia Mono", SFMono-Regular, Consolas,
+    "Courier New", monospace;
+
+  --radius-sm: 1px;
+  --radius: 2px;
+  --radius-md: 2px;
+  --radius-lg: 2px;
+  --radius-xl: 2px;
+  --radius-2xl: 2px;
+  --radius-3xl: 2px;
+  --radius-4xl: 2px;
+
+  --shadow-sm: none;
+  --shadow-md: none;
+  --shadow-lg: 0 12px 32px -16px rgb(22 40 59 / 0.28);
+}
+
 @layer base {
+  :root {
+    color-scheme: light;
+    --paper-sheet: #ffffff;
+    --paper-line: #d4dfe9;
+    --ink-soft: #4a6074;
+    --pen-blue: #23468f;
+    --pen-red: #ae2f27;
+    --marker: #f5e58a;
+  }
+
   html {
     scroll-behavior: smooth;
   }
@@ -12,18 +134,35 @@
     font-family:
       ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial,
       sans-serif;
+    background-image: none;
   }
 
   .dark body {
     @apply bg-slate-950 text-slate-100;
   }
 
+  .dark {
+    color-scheme: dark;
+    --paper-sheet: #16283b;
+    --paper-line: #2a3d50;
+    --ink-soft: #8399ac;
+    --pen-blue: #93aee6;
+    --pen-red: #f4b8b3;
+    --marker: rgb(239 212 77 / 0.32);
+  }
+
+  h1,
+  h2 {
+    font-family: var(--font-display);
+    letter-spacing: -0.01em;
+  }
+
   ::selection {
-    @apply bg-teal-200 text-teal-950;
+    @apply bg-amber-200 text-slate-900;
   }
 
   .dark ::selection {
-    @apply bg-teal-800 text-teal-50;
+    @apply bg-amber-300/80 text-slate-950;
   }
 
   :focus-visible {
@@ -36,6 +175,99 @@
 
   audio {
     width: 100%;
+  }
+
+  a {
+    text-underline-offset: 3px;
+  }
+
+  input::placeholder,
+  textarea::placeholder {
+    color: var(--color-slate-500);
+  }
+
+  .dark input::placeholder,
+  .dark textarea::placeholder {
+    color: var(--color-slate-400);
+  }
+
+  input,
+  textarea,
+  select {
+    caret-color: var(--pen-blue);
+  }
+
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: var(--paper-line) transparent;
+  }
+}
+
+@layer components {
+  /* Tờ giấy: một độ cao duy nhất là đường viền, không thêm bóng. */
+  .sheet {
+    background-color: var(--paper-sheet);
+    border: 1px solid var(--paper-line);
+    border-radius: 2px;
+  }
+
+  /* Lề đỏ của trang vở, chỉ dùng cho tờ giấy chính của trang. */
+  .sheet-margin {
+    position: relative;
+  }
+
+  .sheet-margin::before {
+    content: "";
+    position: absolute;
+    inset-block: 1rem;
+    inset-inline-start: 0.875rem;
+    width: 1px;
+    background-color: var(--pen-red);
+    opacity: 0.45;
+    pointer-events: none;
+  }
+
+  /* Vệt highlight dạ quang cho đúng một câu mỗi trang. */
+  .marker-hit {
+    background-image: linear-gradient(
+      180deg,
+      transparent 58%,
+      var(--marker) 58%,
+      var(--marker) 94%,
+      transparent 94%
+    );
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+  }
+
+  /* Dấu tick đỏ vẽ ra khi chạm vào một dòng mục lục. */
+  .ink-tick {
+    stroke-dasharray: 26;
+    stroke-dashoffset: 26;
+    transition: stroke-dashoffset 320ms cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .group:hover .ink-tick,
+  .group:focus-visible .ink-tick {
+    stroke-dashoffset: 0;
+  }
+
+  /* Dòng đã có bài làm: dấu tick đã nằm sẵn trên giấy. */
+  .ink-tick-done,
+  .group:hover .ink-tick-done {
+    stroke-dashoffset: 0;
+  }
+
+  /* Nhãn đóng dấu: chữ mono, viền 1px, hơi nghiêng như dấu ghi chú. */
+  .stamp {
+    font-family: var(--font-mono);
+    font-size: 0.6875rem;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    border: 1px solid currentColor;
+    padding: 0.15rem 0.4rem;
+    transform: rotate(-1.2deg);
   }
 }
 

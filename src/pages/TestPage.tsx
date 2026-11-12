@@ -24,14 +24,14 @@ import { buildAttempt } from '../lib/scoring'
 function TestNotFound() {
   return (
     <div className="grid min-h-dvh place-items-center bg-slate-50 p-4 dark:bg-slate-950">
-      <div className="w-full max-w-md rounded-2xl border border-slate-200 bg-white p-8 text-center dark:border-slate-800 dark:bg-slate-900">
-        <h1 className="text-xl font-bold">Không tìm thấy đề</h1>
+      <div className="w-full max-w-md border border-slate-200 bg-white p-8 text-center dark:border-slate-800 dark:bg-slate-900">
+        <h1 className="font-display text-xl font-bold">Không tìm thấy đề</h1>
         <p className="mt-2 text-sm text-slate-600 dark:text-slate-400">
           Đề bạn mở không tồn tại hoặc đã bị xóa khỏi dữ liệu.
         </p>
         <Link
           to="/"
-          className="mt-5 inline-flex items-center gap-2 rounded-xl bg-teal-700 px-4 py-2.5 text-sm font-semibold text-white hover:bg-teal-800"
+          className="mt-5 inline-flex items-center gap-2 bg-teal-700 px-4 py-2.5 text-sm font-semibold text-white hover:bg-teal-800"
         >
           <ArrowLeftIcon className="size-4" />
           Về trang chủ
@@ -202,19 +202,19 @@ function TestRunner({
 
   return (
     <div className="min-h-dvh bg-slate-50 dark:bg-slate-950">
-      <header className="sticky top-0 z-30 border-b border-slate-200 bg-white/95 backdrop-blur dark:border-slate-800 dark:bg-slate-950/95">
+      <header className="sticky top-0 z-30 border-b border-slate-200 bg-slate-50 dark:border-slate-800 dark:bg-slate-950">
         <div className="mx-auto flex h-16 max-w-7xl items-center gap-2 px-3 sm:gap-3 sm:px-6">
           <Link
             to={`/luyen-tap/${test.skill}`}
             aria-label="Thoát bài làm"
             title="Thoát bài làm"
-            className="grid size-9 shrink-0 place-items-center rounded-lg border border-slate-200 text-slate-600 transition hover:bg-slate-100 dark:border-slate-700 dark:text-slate-300 dark:hover:bg-slate-800"
+            className="grid size-9 shrink-0 place-items-center border border-slate-300 text-slate-600 transition hover:border-slate-500 hover:text-slate-900 dark:border-slate-700 dark:text-slate-300 dark:hover:text-white"
           >
             <ArrowLeftIcon className="size-4" />
           </Link>
           <div className="min-w-0 flex-1">
-            <p className="truncate text-sm font-semibold">{test.title}</p>
-            <p className="text-xs text-slate-500 dark:text-slate-400">
+            <p className="truncate font-display text-sm font-bold">{test.title}</p>
+            <p className="font-mono text-[10px] uppercase tracking-[0.12em] text-slate-500 dark:text-slate-400">
               {answeredCount}/{totalQuestions} câu
             </p>
           </div>
@@ -224,14 +224,14 @@ function TestRunner({
             type="button"
             onClick={requestSubmit}
             disabled={isSubmitting}
-            className="shrink-0 rounded-lg bg-teal-700 px-3 py-2 text-sm font-semibold text-white transition hover:bg-teal-800 disabled:cursor-not-allowed disabled:opacity-60 sm:px-4"
+            className="shrink-0 bg-teal-700 px-3 py-2 text-sm font-semibold text-white transition hover:bg-teal-800 disabled:cursor-not-allowed disabled:opacity-60 sm:px-4"
           >
             {isSubmitting ? 'Đang lưu...' : 'Nộp bài'}
           </button>
         </div>
       </header>
 
-      <main className="mx-auto max-w-7xl px-3 py-4 sm:px-6 sm:py-6">
+      <main className="mx-auto max-w-7xl px-3 py-4 sm:px-6 sm:py-6" tabIndex={-1}>
         {showConfirm ? (
           <div
             role="alert"
@@ -280,21 +280,20 @@ function TestRunner({
 
         <div className="mt-4">
           <div
-            role="tablist"
+            role="group"
             aria-label="Chọn phần"
-            className="flex gap-1 overflow-x-auto rounded-xl border border-slate-200 bg-white p-1 shadow-sm dark:border-slate-800 dark:bg-slate-900"
+            className="flex gap-4 overflow-x-auto border-b border-slate-200 dark:border-slate-800"
           >
             {test.parts.map((part) => (
               <button
                 key={part.id}
                 type="button"
-                role="tab"
-                aria-selected={part.partNumber === activePartNumber}
+                aria-pressed={part.partNumber === activePartNumber}
                 onClick={() => setActivePartNumber(part.partNumber)}
-                className={`shrink-0 rounded-lg px-3 py-2 text-sm font-semibold transition ${
+                className={`-mb-px shrink-0 border-b-2 py-2 text-sm transition-colors ${
                   part.partNumber === activePartNumber
-                    ? 'bg-teal-700 text-white'
-                    : 'text-slate-600 hover:bg-slate-100 dark:text-slate-300 dark:hover:bg-slate-800'
+                    ? 'border-teal-700 font-semibold text-slate-900 dark:border-teal-400 dark:text-white'
+                    : 'border-transparent text-slate-600 hover:border-slate-300 hover:text-slate-900 dark:text-slate-300'
                 }`}
               >
                 {partLabel} {part.partNumber}
@@ -360,11 +359,11 @@ function TestRunner({
           </div>
 
           <div className="space-y-4">
-            <div className="flex items-center justify-between gap-3">
-              <h2 className="text-base font-bold">
+            <div className="flex items-baseline justify-between gap-3">
+              <h2 className="font-display text-xl font-bold">
                 {partLabel} {activePart.partNumber}
               </h2>
-              <span className="text-xs text-slate-500 dark:text-slate-400">
+              <span className="font-mono text-[10px] uppercase tracking-[0.12em] text-slate-500 dark:text-slate-400">
                 {activePart.questions.length} câu
               </span>
             </div>

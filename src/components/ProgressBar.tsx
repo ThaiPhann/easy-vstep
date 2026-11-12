@@ -20,10 +20,10 @@ export function ProgressBar({
       aria-valuemin={0}
       aria-valuemax={max}
       aria-valuenow={value}
-      className={`h-2 overflow-hidden rounded-full bg-slate-100 dark:bg-slate-800 ${className}`}
+      className={`h-2 overflow-hidden rounded-none bg-slate-100 dark:bg-slate-800 ${className}`}
     >
       <div
-        className={`h-full rounded-full transition-all ${barClassName}`}
+        className={`h-full rounded-none transition-all ${barClassName}`}
         style={{ width: `${percent}%` }}
       />
     </div>

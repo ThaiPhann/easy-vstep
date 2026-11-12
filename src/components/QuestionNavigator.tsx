@@ -88,11 +88,11 @@ export function QuestionNavigator({
 
       <div className="mt-3 flex flex-wrap gap-x-4 gap-y-1 text-xs text-slate-500 dark:text-slate-400">
         <span className="inline-flex items-center gap-1.5">
-          <span className="size-2.5 rounded-full bg-teal-600" />
+          <span className="size-2.5 bg-teal-600" />
           Đã trả lời
         </span>
         <span className="inline-flex items-center gap-1.5">
-          <span className="size-2.5 rounded-full bg-slate-200 dark:bg-slate-700" />
+          <span className="size-2.5 bg-slate-200 dark:bg-slate-700" />
           Chưa trả lời
         </span>
         <span className="inline-flex items-center gap-1.5">

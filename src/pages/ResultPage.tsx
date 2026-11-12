@@ -120,38 +120,40 @@ export function ResultPage() {
             {formatDateTime(attempt.completedAt)}
           </span>
         </div>
-        <h1 className="mt-2 text-2xl font-extrabold tracking-tight sm:text-3xl">
+        <h1 className="mt-2 text-3xl font-bold sm:text-4xl">
           {test?.title ?? `Kết quả ${skillName}`}
         </h1>
       </div>
 
-      <section className="rounded-3xl border border-teal-100 bg-gradient-to-br from-teal-50 via-white to-sky-50 p-6 shadow-sm dark:border-teal-900/60 dark:from-teal-950/40 dark:via-slate-900 dark:to-sky-950/30 sm:p-8">
-        <div className="flex flex-wrap items-end justify-between gap-5">
+      <section className="sheet sheet-margin p-6 pl-10 sm:p-8 sm:pl-14">
+        <div className="flex flex-wrap items-end justify-between gap-6">
           <div>
-            <p className="text-sm font-medium text-slate-600 dark:text-slate-300">
+            <p className="font-mono text-[10px] uppercase tracking-[0.14em] text-slate-500 dark:text-slate-400">
               Điểm {skillName}
             </p>
-            <p className="mt-1 text-5xl font-extrabold tracking-tight">
-              {formatScore(attempt.score)}
-              <span className="text-xl font-semibold text-slate-500 dark:text-slate-400">
+            <p className="mt-2 flex items-baseline gap-2">
+              <span className="font-mono text-6xl font-bold tabular-nums text-teal-700 dark:text-teal-300">
+                {formatScore(attempt.score)}
+              </span>
+              <span className="text-lg text-slate-500 dark:text-slate-400">
                 /10
               </span>
             </p>
           </div>
-          <dl className="grid grid-cols-2 gap-3 text-sm">
-            <div className="rounded-xl bg-white/80 p-3 ring-1 ring-slate-200/70 dark:bg-slate-900/70 dark:ring-slate-800">
-              <dt className="text-xs text-slate-500 dark:text-slate-400">
+          <dl className="grid grid-cols-2 gap-x-8 gap-y-3 text-sm">
+            <div>
+              <dt className="font-mono text-[10px] uppercase tracking-[0.12em] text-slate-500 dark:text-slate-400">
                 Câu đúng
               </dt>
-              <dd className="mt-0.5 text-lg font-bold">
+              <dd className="mt-1 font-mono text-lg font-bold tabular-nums">
                 {attempt.correctCount}/{totalQuestions}
               </dd>
             </div>
-            <div className="rounded-xl bg-white/80 p-3 ring-1 ring-slate-200/70 dark:bg-slate-900/70 dark:ring-slate-800">
-              <dt className="text-xs text-slate-500 dark:text-slate-400">
+            <div>
+              <dt className="font-mono text-[10px] uppercase tracking-[0.12em] text-slate-500 dark:text-slate-400">
                 Thời gian làm
               </dt>
-              <dd className="mt-0.5 text-lg font-bold">
+              <dd className="mt-1 font-mono text-lg font-bold tabular-nums">
                 {formatDuration(attempt.durationSeconds)}
               </dd>
             </div>
@@ -160,7 +162,7 @@ export function ResultPage() {
       </section>
 
       <section aria-labelledby="parts-heading">
-        <h2 id="parts-heading" className="mb-3 text-lg font-bold tracking-tight">
+        <h2 id="parts-heading" className="mb-3 text-2xl font-bold">
           Điểm theo từng {attempt.skill === 'reading' ? 'bài' : 'part'}
         </h2>
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
@@ -230,7 +232,7 @@ export function ResultPage() {
                   <h3 className="text-base font-bold">
                     {partLabel} {part.partNumber} · {part.title}
                   </h3>
-                  <span className="rounded-full bg-slate-100 px-2.5 py-1 text-xs font-semibold text-slate-600 dark:bg-slate-800 dark:text-slate-300">
+                  <span className="border border-slate-300 px-2 py-0.5 font-mono text-[10px] font-semibold uppercase tracking-[0.1em] text-slate-600 dark:border-slate-700 dark:text-slate-300">
                     {partScore?.correct ?? 0}/{part.questions.length} câu đúng
                   </span>
                 </div>

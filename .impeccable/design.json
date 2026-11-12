@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-12T00:00:00.000Z",
+  "title": "Design System: VSTEP Luyện thi",
+  "extensions": {
+    "colorMeta": {
+      "ink-blue": {
+        "role": "primary",
+        "displayName": "Ink Blue",
+        "canonical": "#23468f",
+        "tonalRamp": ["#0f1d38", "#172c58", "#1b3873", "#23468f", "#3559a8", "#4a6fc0", "#93aee6", "#dce6f9"]
+      },
+      "red-pen": {
+        "role": "secondary",
+        "displayName": "Red Pen",
+        "canonical": "#c93f36",
+        "tonalRamp": ["#330f0d", "#5c1d19", "#8e2620", "#ae2f27", "#c93f36", "#dc5c53", "#ea8b84", "#fadcda"]
+      },
+      "marker-yellow": {
+        "role": "tertiary",
+        "displayName": "Marker Yellow",
+        "canonical": "#f5e58a",
+        "tonalRamp": ["#2a2106", "#4a3b0d", "#755d09", "#97790a", "#d9b71a", "#e8ce3f", "#f5e58a", "#fbf3c8"]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "canonical": "#f3f6f9",
+        "tonalRamp": ["#0d1a26", "#16283b", "#22364a", "#33495c", "#4a6074", "#8399ac", "#d4dfe9", "#f3f6f9"]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "#16283b",
+        "tonalRamp": ["#0d1a26", "#16283b", "#22364a", "#33495c", "#4a6074", "#62788c", "#8399ac", "#d4dfe9"]
+      }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Notebook Display", "purpose": "Tiêu đề trang, hero, tiêu đề khối lớn." },
+      "body": { "displayName": "Reading Body", "purpose": "Mô tả, giải thích, nội dung đọc." },
+      "label": { "displayName": "Margin Label", "purpose": "Nhãn lề, metadata, số câu, nhãn trạng thái." },
+      "label-micro": { "displayName": "Micro Label", "purpose": "Nhãn phần, số liệu trên phiếu điểm, dòng chân trang." }
+    },
+    "shadows": [
+      { "name": "popover", "value": "0 12px 32px -16px rgb(22 40 59 / 0.28)", "purpose": "Chỉ popover/tooltip thật sự cần tách khỏi giấy." }
+    ],
+    "motion": [
+      { "name": "tick-draw", "value": "320ms cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "Dấu tick đỏ tự vẽ khi hover/focus dòng mục lục." },
+      { "name": "color-shift", "value": "150ms ease", "purpose": "Đổi màu chữ, viền, nền của nút và liên kết." }
+    ],
+    "breakpoints": [
+      { "name": "sm", "value": "640px" },
+      { "name": "lg", "value": "1024px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Hành động chính trên mỗi màn: bắt đầu làm bài, luyện tiếp, mở công cụ.",
+      "html": "<button class=\"ds-btn-primary\">Luyện Reading tiếp <svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14\"/><path d=\"m12 5 7 7-7 7\"/></svg></button>",
+      "css": ".ds-btn-primary { display: inline-flex; align-items: center; justify-content: center; gap: 8px; width: 100%; padding: 10px 16px; background: var(--pen-blue, #23468f); color: #fff; border: 1px solid var(--pen-blue, #23468f); border-radius: 2px; font: 600 0.875rem/1.4 ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", Roboto, Arial, sans-serif; cursor: pointer; transition: background-color 150ms ease, border-color 150ms ease; } .ds-btn-primary:hover { background: #1b3873; border-color: #1b3873; } .ds-btn-primary:active { background: #172c58; } .ds-btn-primary:focus-visible { outline: 2px solid #3559a8; outline-offset: 2px; }"
+    },
+    {
+      "name": "Quiet Button",
+      "kind": "button",
+      "refersTo": "button-quiet",
+      "description": "Hành động phụ cạnh hành động chính, hoặc liên kết quay lại.",
+      "html": "<a class=\"ds-btn-quiet\" href=\"#\">Xem lại bài này</a>",
+      "css": ".ds-btn-quiet { display: inline-flex; align-items: center; gap: 6px; padding: 8px 12px; background: transparent; color: var(--pen-blue, #23468f); border: 1px solid transparent; border-radius: 2px; font: 600 0.875rem/1.4 ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", Roboto, Arial, sans-serif; text-decoration: underline; text-underline-offset: 3px; cursor: pointer; transition: background-color 150ms ease; } .ds-btn-quiet:hover { background: #eef3fc; } .ds-btn-quiet:focus-visible { outline: 2px solid #3559a8; outline-offset: 2px; }"
+    },
+    {
+      "name": "Sheet Card",
+      "kind": "card",
+      "refersTo": "sheet",
+      "description": "Tờ giấy chứa một đề hoặc một khối nội dung; một độ cao duy nhất là viền.",
+      "html": "<article class=\"ds-sheet\"><p class=\"ds-sheet-eyebrow\">Reading · 60 phút</p><h3 class=\"ds-sheet-title\">Đề Reading 01 — Cuộc sống &amp; học tập</h3><p class=\"ds-sheet-meta\">4 bài đọc · 40 câu hỏi</p></article>",
+      "css": ".ds-sheet { background: #fff; border: 1px solid #d4dfe9; border-radius: 2px; padding: 20px; transition: border-color 150ms ease; } .ds-sheet:hover { border-color: #8399ac; } .ds-sheet-eyebrow { margin: 0; font: 600 0.6875rem/1.5 ui-monospace, Consolas, monospace; letter-spacing: 0.12em; text-transform: uppercase; color: #62788c; } .ds-sheet-title { margin: 8px 0 0; font: 700 1.125rem/1.3 \"Times New Roman\", Georgia, serif; color: #16283b; } .ds-sheet-meta { margin: 6px 0 0; font: 400 0.75rem/1.5 ui-monospace, Consolas, monospace; letter-spacing: 0.08em; text-transform: uppercase; color: #62788c; }"
+    },
+    {
+      "name": "Skill Index Row",
+      "kind": "custom",
+      "description": "Dòng mục lục kỹ năng: ô tick đỏ tự vẽ khi hover/focus, tick đứng sẵn khi đã có bài.",
+      "html": "<a class=\"ds-index-row\" href=\"#\"><span class=\"ds-index-box\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#c93f36\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path class=\"ds-tick\" pathLength=\"26\" d=\"M4 12.5 9.5 18 20 6.5\"/></svg></span><span class=\"ds-index-main\"><span class=\"ds-index-name\">Reading</span><span class=\"ds-index-meta\">4 bài · 40 câu · 60 phút</span></span><svg class=\"ds-index-arrow\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14\"/><path d=\"m12 5 7 7-7 7\"/></svg></a>",
+      "css": ".ds-index-row { display: flex; align-items: center; gap: 16px; padding: 12px 0 12px 0; border-bottom: 1px solid #e8eef4; color: #16283b; text-decoration: none; } .ds-index-box { display: grid; place-items: center; width: 40px; height: 40px; flex: none; border: 1px solid #b3c3d2; background: #fff; } .ds-index-box svg { width: 22px; height: 22px; } .ds-tick { stroke-dasharray: 26; stroke-dashoffset: 26; transition: stroke-dashoffset 320ms cubic-bezier(0.16, 1, 0.3, 1); } .ds-index-row:hover .ds-tick, .ds-index-row:focus-visible .ds-tick { stroke-dashoffset: 0; } .ds-index-main { display: flex; flex-direction: column; gap: 2px; flex: 1; min-width: 0; } .ds-index-name { font: 700 1.125rem/1.3 \"Times New Roman\", Georgia, serif; } .ds-index-meta { font: 600 0.6875rem/1.5 ui-monospace, Consolas, monospace; letter-spacing: 0.12em; text-transform: uppercase; color: #62788c; } .ds-index-arrow { flex: none; color: #8399ac; transition: transform 150ms ease, color 150ms ease; } .ds-index-row:hover .ds-index-arrow { transform: translateX(2px); color: #23468f; } .ds-index-row:focus-visible { outline: 2px solid #3559a8; outline-offset: 2px; }"
+    },
+    {
+      "name": "Skill Chip",
+      "kind": "chip",
+      "refersTo": "chip-skill",
+      "description": "Nhãn kỹ năng dạng dấu đóng, không phải pill.",
+      "html": "<span class=\"ds-chip\">Reading</span> <span class=\"ds-chip ds-chip-muted\">Listening</span> <span class=\"ds-chip ds-chip-alert\">Sắp ra mắt</span>",
+      "css": ".ds-chip { display: inline-block; padding: 2px 6px; border: 1px solid currentColor; border-radius: 2px; font: 600 0.6875rem/1.5 ui-monospace, Consolas, monospace; letter-spacing: 0.14em; text-transform: uppercase; color: #23468f; background: transparent; } .ds-chip-muted { color: #4a6074; } .ds-chip-alert { color: #ae2f27; }"
+    },
+    {
+      "name": "Text Input",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Ô nhập điểm; nhãn mono nằm trên ô, không dùng placeholder làm nhãn.",
+      "html": "<label class=\"ds-field\"><span class=\"ds-field-label\">Reading</span><input class=\"ds-input\" type=\"number\" step=\"0.5\" min=\"0\" max=\"10\" placeholder=\"VD: 6.0\" /></label>",
+      "css": ".ds-field { display: flex; flex-direction: column; gap: 6px; } .ds-field-label { font: 600 0.75rem/1.4 ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", Roboto, Arial, sans-serif; color: #16283b; } .ds-input { width: 100%; padding: 8px 12px; background: #fff; color: #16283b; border: 1px solid #d4dfe9; border-radius: 2px; font: 400 1rem/1.5 ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", Roboto, Arial, sans-serif; } .ds-input::placeholder { color: #8399ac; } .ds-input:focus-visible { outline: none; border-color: #23468f; box-shadow: inset 0 0 0 1px #23468f; }"
+    },
+    {
+      "name": "Navigation Item",
+      "kind": "nav",
+      "description": "Mục điều hướng chính; mục đang chọn gạch chân 2px mực xanh.",
+      "html": "<nav class=\"ds-nav\"><a class=\"ds-nav-item ds-nav-item-active\" href=\"#\">Trang chủ</a><a class=\"ds-nav-item\" href=\"#\">Quy đổi điểm</a><a class=\"ds-nav-item\" href=\"#\">Cá nhân</a></nav>",
+      "css": ".ds-nav { display: flex; gap: 20px; border-bottom: 1px solid #d4dfe9; } .ds-nav-item { padding: 14px 2px; border-bottom: 2px solid transparent; margin-bottom: -1px; color: #4a6074; text-decoration: none; font: 400 0.875rem/1.4 ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", Roboto, Arial, sans-serif; transition: color 150ms ease, border-color 150ms ease; } .ds-nav-item:hover { color: #16283b; border-bottom-color: #b3c3d2; } .ds-nav-item-active { color: #16283b; font-weight: 600; border-bottom-color: #23468f; } .ds-nav-item:focus-visible { outline: 2px solid #3559a8; outline-offset: 2px; }"
+    },
+    {
+      "name": "Stamp Label",
+      "kind": "custom",
+      "description": "Nhãn trạng thái kiểu dấu đóng: mono, viền 1px, nghiêng nhẹ.",
+      "html": "<span class=\"ds-stamp\">Lưu trên thiết bị</span>",
+      "css": ".ds-stamp { display: inline-block; padding: 2px 6px; border: 1px solid currentColor; border-radius: 0; font: 600 0.6875rem/1.5 ui-monospace, Consolas, monospace; letter-spacing: 0.14em; text-transform: uppercase; color: #23468f; transform: rotate(-1.2deg); }"
+    }
+  ],
+  "narrative": {
+    "northStar": "Cuốn vở ôn thi",
+    "overview": "Giao diện là một cuốn vở đang dùng: giấy trắng-xanh, lề đỏ kẻ dọc, tiêu đề viết tay bằng bút mực xanh, chỗ quan trọng gạch chân hoặc tô bằng bút dạ quang. Người học mở trang là thấy bài của mình đã ghi trên giấy, không phải một dashboard thống kê. Mọi thứ cao bằng đúng một lớp giấy — không bóng đổ, không khối nổi, không gradient trang trí.\n\nKhung nhìn lấy từ đề thi in và sổ ghi chép học sinh Việt Nam: chữ serif cho tiêu đề như đầu đề bài đọc, chữ mono cho số liệu và nhãn như số trang, số câu in ở lề. Màu chỉ có ba loại mực — xanh bút bi, đỏ phê bài, vàng dạ quang — trên nền giấy. Màu không dùng để trang trí mà để đánh dấu: đỏ là lề vở và dấu tick, vàng là đúng một cụm từ đáng nhớ mỗi màn.\n\nChuyển động tối thiểu và có lý do: dấu tick đỏ tự vẽ ra khi trỏ vào một dòng mục lục, giống tay người đánh dấu bài đã làm. Không có hiệu ứng xuất hiện, không parallax, không chuyển cảnh.",
+    "keyCharacteristics": [
+      "Nền giấy xanh nhạt; mọi khối nội dung là một tờ giấy trắng viền 1px, bo góc gần như vuông (2px).",
+      "Ba màu mực: xanh bút bi cho hành động và số liệu, đỏ phê cho lề và dấu đã làm, vàng dạ quang cho một cụm từ mỗi màn.",
+      "Tiêu đề serif, thân bài sans hệ thống, nhãn và số mono viết hoa giãn chữ.",
+      "Không bóng đổ ở trạng thái nghỉ; độ cao duy nhất là đường viền.",
+      "Bố cục một cột ở 375px, thoáng dần lên desktop; không có cột phụ, không sidebar."
+    ],
+    "rules": [
+      { "name": "The Three Pens Rule", "body": "Chỉ có ba màu mực được phép xuất hiện trên giấy: xanh, đỏ, vàng. Nếu một thành phần cần màu thứ tư, nó đang sai — hãy dùng cỡ chữ, độ đậm hoặc đường kẻ thay thế.", "section": "colors" },
+      { "name": "The Margin Rule", "body": "Lề đỏ chỉ đặt trên tờ giấy chính của mỗi trang (hero trang chủ, phiếu điểm), không đặt trên từng thẻ. Nó đánh dấu \"đây là trang vở\", không phải vật trang trí lặp lại.", "section": "colors" },
+      { "name": "The Two Voices Rule", "body": "Tiêu đề nói bằng serif, mọi thứ còn lại nói bằng sans hoặc mono. Không dùng serif cho đoạn văn dài, không dùng mono cho câu đọc.", "section": "typography" },
+      { "name": "The One Height Rule", "body": "Nếu một khối cần nổi bật hơn khối bên cạnh, đổi màu nền hoặc đậm viền — không thêm bóng. Chỉ popover được dùng bóng.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do đặt mọi khối nội dung trên một tờ giấy trắng viền 1px Rule Line, bo 2px.",
+      "Do dùng mono viết hoa cho mọi nhãn và con số phụ (số câu, thời lượng, ngày).",
+      "Do giữ đúng một cụm marker mỗi màn.",
+      "Do kiểm tra ở 375px trước, cả light và dark, trước khi coi là xong."
+    ],
+    "donts": [
+      "Don't thêm bóng đổ, gradient nền, hay kính mờ cho thẻ và header.",
+      "Don't dùng pill, bo góc lớn hơn 2px, hay icon trong vòng tròn đặc.",
+      "Don't dùng đỏ cho nút hành động chính hoặc cho mảng nền lớn.",
+      "Don't dùng ảnh stock, minh họa người, testimonial, hay con số hiệu quả ôn thi — bằng chứng của sản phẩm là đề, điểm và lịch sử thật."
+    ]
+  }
+}

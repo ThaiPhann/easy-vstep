@@ -38,7 +38,7 @@ export function QuestionCard({
           className={`grid size-9 shrink-0 place-items-center rounded-lg border transition ${
             flagged
               ? 'border-amber-400 bg-amber-50 text-amber-700 dark:border-amber-700 dark:bg-amber-950/50 dark:text-amber-300'
-              : 'border-slate-200 text-slate-400 hover:bg-slate-50 hover:text-slate-600 dark:border-slate-700 dark:text-slate-500 dark:hover:bg-slate-800 dark:hover:text-slate-300'
+              : 'border-slate-200 text-slate-500 hover:bg-slate-50 hover:text-slate-700 dark:border-slate-700 dark:text-slate-400 dark:hover:bg-slate-800 dark:hover:text-slate-200'
           }`}
         >
           <FlagIcon className="size-4" />
